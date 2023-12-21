@@ -30,8 +30,11 @@ Ter verduidelijking kun je ook in dit document kijken hoe de \#'s werken.
 Je gebruik een \ om het symbool zelf te laten zien en dus niet te gebruiken voor opmaak.
 
 Ik zal de belangrijkste "speciale" symbolen hier uitleggen.
+
 Tekst \*\*vet\*\* maken **voorbeeld**
+
 Tekst \*cursief\* maken *voorbeeld*
+
 Tekst \~\~doorgestreept\~\~ maken ~~voorbeeld~~
 
 Tekst \> blok maken (moet beginnen op een nieuwe regel gevolgd door een spatie)
@@ -39,26 +42,27 @@ Tekst \> blok maken (moet beginnen op een nieuwe regel gevolgd door een spatie)
 
 Lijst (numeriek)
 
-1. Item 1. Begin met 1. gevolgd door een spatie.
-2. Item 2. Volg met 2. gevolgd door een spatie.
+1. Item 1 begint met 1. gevolgd door een spatie.
+2. Item 2 volgt met 2. gevolgd door een spatie.
 
 Lijst (bullets)
 
-- Item X. Begin met - gevolgd door een spatie.
-- Item Y. Volg met - gevolgd door een spatie.
+- Item X begint met - gevolgd door een spatie.
+- Item Y volgt met - gevolgd door een spatie.
 
 Horzintale lijn met --- op een lege regel
 
 ---
 
 Een [link](https://www.google.com) maken met \[link naam/tekst](de url)
+
 Een ![afbeelding](https://www.markdownguide.org/assets/images/tux.png) maken met \!\[tekst](url of pad/afbeelding)
 
 Een tabel
 | Kolom 1 | Kolom 2 |
 | ----------- | ----------- |
-| Wat tekst | Wat tekst |
-| Wat tekst | Wat tekst |
+| Rij 1, kolom 1 | Rij 1, kolom 2 |
+| Rij 2, kolom 1 | Rij 2, kolom 2 |
 
 Een taken lijst
 
