@@ -1,24 +1,21 @@
 # Website Honden
 
-## Inhoudsopgave
-
-- [Website Honden](#website-honden)
-  - [Inhoudsopgave](#inhoudsopgave)
-  - [Uitleg](#uitleg)
-    - [Wat is markdown](#wat-is-markdown)
-    - [Hoe werkt de website](#hoe-werkt-de-website)
-    - [Hoe maak je aanpassingen](#hoe-maak-je-aanpassingen)
-      - [Pagina aanpassen](#pagina-aanpassen)
-      - [Pagina maken](#pagina-maken)
-      - [Aanpassingen publiceren](#aanpassingen-publiceren)
-
-## Uitleg
-
 Dit deel is niet zichtbaar op je website en is bedoelt om je uit te leggen hoe bepaalde dingen en hoe je aanpassingen maakt.
 Deze tekst staat in het REAMDE.md bestand. Dit noem je een markdown bestand, de taal heet markdown.
 Als je dingen wil opschrijven om te onthouden, dan kun je dat het beste hierin doen.
 
-### Wat is markdown
+## Inhoudsopgave
+
+- [Website Honden](#website-honden)
+  - [Inhoudsopgave](#inhoudsopgave)
+  - [Wat is markdown](#wat-is-markdown)
+  - [Hoe werkt de website](#hoe-werkt-de-website)
+  - [Hoe maak je aanpassingen](#hoe-maak-je-aanpassingen)
+    - [Pagina aanpassen](#pagina-aanpassen)
+    - [Pagina maken](#pagina-maken)
+    - [Aanpassingen publiceren](#aanpassingen-publiceren)
+
+## Wat is markdown
 
 Markdown is een simpele taal, waarmee je met symbolen je text kan opmaken.
 Dus in dit bestand staan symbolen, die je in de Github pagina worden vertaald naar opmaak.
@@ -70,7 +67,7 @@ Een taken lijst
 - [x] Dit is gedaan
 - [ ] Dit nog niet
 
-### Hoe werkt de website
+## Hoe werkt de website
 
 De website bestaat uit html en css.
 
@@ -82,16 +79,16 @@ Welke font, kleur, etc.
 
 Optioneel zouden we ooit JavaScript kunnen toevoegen voor animaties, zodat dingen op de website kunnen bewegen.
 
-### Hoe maak je aanpassingen
+## Hoe maak je aanpassingen
 
-#### Pagina aanpassen
-
-todo
-
-#### Pagina maken
+### Pagina aanpassen
 
 todo
 
-#### Aanpassingen publiceren
+### Pagina maken
+
+todo
+
+### Aanpassingen publiceren
 
 todo
