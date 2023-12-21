@@ -24,12 +24,14 @@ Markdown is een simpele taal, waarmee je met symbolen je text kan opmaken.
 Dus in dit bestand staan symbolen, die je in de Github pagina worden vertaald naar opmaak.
 Je kan [Visual Studio Code](https://code.visualstudio.com/) installeren om je te helpen bij het schrijven van de markdown.
 
+Ik zal de belangrijkste "speciale" symbolen hier uitleggen.
+
+Als je wil dat tekst binnen een blok op een nieuwe regel begint, dan kun je de regel/tekst eindigen met een \.
+
 Zo kun je op een nieuwe regel \# gevolgd door een spatie gebruiken als headers voor hoofdstukken.
 Als je begint met \#\#, dan is dat een subhoofdstuk. Zo kun je \#'s blijven toevoegen om subhoofdstukken te maken.
 Ter verduidelijking kun je ook in dit document kijken hoe de \#'s werken.
 Je gebruik een \ om het symbool zelf te laten zien en dus niet te gebruiken voor opmaak.
-
-Ik zal de belangrijkste "speciale" symbolen hier uitleggen.
 
 Tekst \*\*vet\*\* maken **voorbeeld**\
 Tekst \*cursief\* maken *voorbeeld*\
