@@ -26,7 +26,7 @@ Je kan [Visual Studio Code](https://code.visualstudio.com/) installeren om je te
 
 Ik zal de belangrijkste "speciale" symbolen hier uitleggen.
 
-Als je wil dat tekst binnen een blok op een nieuwe regel begint, dan kun je de regel/tekst eindigen met een \.
+Als je wil dat tekst binnen een blok op een nieuwe regel begint, dan kun je de regel/tekst eindigen met een \ .
 
 Zo kun je op een nieuwe regel \# gevolgd door een spatie gebruiken als headers voor hoofdstukken.
 Als je begint met \#\#, dan is dat een subhoofdstuk. Zo kun je \#'s blijven toevoegen om subhoofdstukken te maken.
