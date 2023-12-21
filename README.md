@@ -25,6 +25,7 @@ Dus in dit bestand staan symbolen, die je in de Github pagina worden vertaald na
 Je kan [Visual Studio Code](https://code.visualstudio.com/) installeren om je te helpen bij het schrijven van de markdown.
 
 Ik zal de belangrijkste "speciale" symbolen hier uitleggen.
+Je kan de gebruikte symbolen in dit bestand zien door te klikken op het potloodje, zodat je dit bestand kan aanpassen.
 
 Als je wil dat tekst binnen een blok op een nieuwe regel begint, dan kun je de regel/tekst eindigen met een \ .
 
