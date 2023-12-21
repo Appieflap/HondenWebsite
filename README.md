@@ -31,11 +31,9 @@ Je gebruik een \ om het symbool zelf te laten zien en dus niet te gebruiken voor
 
 Ik zal de belangrijkste "speciale" symbolen hier uitleggen.
 
-Tekst \*\*vet\*\* maken **voorbeeld**
-
-Tekst \*cursief\* maken *voorbeeld*
-
-Tekst \~\~doorgestreept\~\~ maken ~~voorbeeld~~
+Tekst \*\*vet\*\* maken **voorbeeld**\
+Tekst \*cursief\* maken *voorbeeld*\
+Tekst \~\~doorgestreept\~\~ maken ~~voorbeeld~~\
 
 Tekst \> blok maken (moet beginnen op een nieuwe regel gevolgd door een spatie)
 > voorbeeld
