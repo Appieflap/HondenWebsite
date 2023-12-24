@@ -81,6 +81,8 @@ Optioneel zouden we ooit JavaScript kunnen toevoegen voor animaties, zodat dinge
 
 ## Hoe maak je aanpassingen
 
+[Video voor simpele setup website via Github Pages](https://www.youtube.com/watch?v=OltY8JIaP-4)
+
 ### Pagina aanpassen
 
 todo
