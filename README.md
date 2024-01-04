@@ -79,9 +79,16 @@ Welke font, kleur, etc.
 
 Optioneel zouden we ooit JavaScript kunnen toevoegen voor animaties, zodat dingen op de website kunnen bewegen.
 
+**Github** host de bestanden voor je website (gratis).
+**Hostnet** gebruiken we als je domein registrar (betaald).
+Een domein registrar zorgt ervoor dat de naam van je website verwijst naar het IP adres van je server/host.
+
 ## Hoe maak je aanpassingen
 
+[Video met uitleg HTML en CSS](https://www.youtube.com/watch?v=G3e-cpL7ofc)
 [Video voor simpele setup website via Github Pages](https://www.youtube.com/watch?v=OltY8JIaP-4)
+[Video voor gebruik domein met Github Pages](https://www.youtube.com/watch?v=EX4w9hsduNA)
+ChatGPT gevraagd voor simpele layout van een HTML bestand (zie template.html).
 
 ### Pagina aanpassen
 
