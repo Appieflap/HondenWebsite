@@ -1,4 +1,32 @@
 body {
-    background-color: #1a1a1a; /* Use the desired dark color code */
-    color: #ffffff; /* Set text color to a contrasting light color */
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 15px;
+    text-align: center;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+}
+
+.navlink:hover {
+    background-color: #555;
+}
+
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
 }
