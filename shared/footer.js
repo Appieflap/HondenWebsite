@@ -1,5 +1,5 @@
 // JS om footer op te halen
-fetch('/_shared/footer.html')
+fetch('/shared/footer.html')
     .then(res => res.text())
     .then(text => {
         let oldelem = document.querySelector("script#footer");
