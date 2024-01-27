@@ -34,7 +34,6 @@ Je gebruik een \ om het symbool zelf te laten zien en dus niet te gebruiken voor
 Tekst \*\*vet\*\* maken **voorbeeld**\
 Tekst \*cursief\* maken *voorbeeld*\
 Tekst \~\~doorgestreept\~\~ maken ~~voorbeeld~~\
-
 Tekst \> blok maken (moet beginnen op een nieuwe regel gevolgd door een spatie)
 > voorbeeld
 
