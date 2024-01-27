@@ -1,1 +1,1 @@
-exclude: ['README.md', 'template.html']
+exclude: ['README.md', 'template.html', 'TODO.md']
