@@ -6,6 +6,7 @@ Als je dingen wil opschrijven om te onthouden, dan kun je dat het beste hierin d
 
 ## Inhoudsopgave
 
+
 - [Website Honden](#website-honden)
   - [Inhoudsopgave](#inhoudsopgave)
   - [Wat is markdown](#wat-is-markdown)
