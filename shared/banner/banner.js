@@ -1,9 +1,7 @@
 // JS om banner op te halen
 fetch('/shared/banner/banner.html')
-    .then(res => res.text())
-    .then(text => {
-        let oldelem = document.querySelector("script#banner");
-        let newelem = document.createElement("div");
-        newelem.innerHTML = text;
-        oldelem.parentNode.replaceChild(newelem, oldelem);
-    })
+.then(response => response.text())
+.then(html => {
+    document.getElementById('banner-container').innerHTML = html;
+})
+.catch(error => console.error('Error handeling banner:', error));

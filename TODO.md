@@ -10,8 +10,12 @@
     - Aanbod < Tarieven
     - Huisregels
 
-- Bij scrollen logo en navbar mee
+- Bij scrollen logo mee
 
 - Aparte banner en text per pagina
 
 - Inhoud & afbeeldingen van Sharon
+
+- Alle gedeelde html samenvoegen
+
+- Favicon toevoegen

@@ -1,9 +1,7 @@
 // JS om footer op te halen
 fetch('/shared/footer/footer.html')
-    .then(res => res.text())
-    .then(text => {
-        let oldelem = document.querySelector("script#footer");
-        let newelem = document.createElement("div");
-        newelem.innerHTML = text;
-        oldelem.parentNode.replaceChild(newelem, oldelem);
-    })
+.then(response => response.text())
+.then(html => {
+    document.getElementById('footer-container').innerHTML = html;
+})
+.catch(error => console.error('Error handeling footer:', error));

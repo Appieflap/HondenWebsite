@@ -18,7 +18,13 @@ li {
     text-align: center;
 }
 
-.navlink {
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-link {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 16px;
@@ -28,12 +34,13 @@ li {
     padding: 5px 10px;
 }
 
-.navlink:hover {
+.navbar-link:hover {
     background-color: rgb(85, 85, 85);
 }
 
-.navbar-list {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
+
