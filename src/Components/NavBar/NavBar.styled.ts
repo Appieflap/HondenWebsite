@@ -1,0 +1,49 @@
+import styled from "@emotion/styled";
+
+export const Container = styled("div")({
+    paddingLeft: "15px",
+    paddingRight: "15px",
+    display: "flex",
+    justifyContent: "center",
+    position: "sticky",
+    top: "0px",
+    backgroundColor: "white",
+    // add shadow only when sticky is active
+    boxShadow: "0 2px 4px 0 rgba(0,0,0,0.1)",
+});
+
+export const ContentContainer = styled("div")({
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    maxWidth: "1170px",
+    width: "100%",
+    height: "60px",
+});
+
+export const ListContainer = styled("ul")({
+    display: "flex",
+    listStyleType: "none",
+    padding: 0,
+    margin: 0,
+    fontWeight: 600,
+});
+
+export const ListItem = styled("li")({
+    position: "relative",
+    marginRight: "50px",
+    cursor: "pointer",
+    '&:hover::after': {
+        width: "100%", // Underline reaches full width on hover
+    },
+    '&::after': {
+        content: '""',
+        position: "absolute",
+        bottom: -3,
+        left: 0,
+        width: 0,
+        height: "2px",
+        backgroundColor: "#959cf3",
+        transition: "width 0.3s ease",
+    },
+});
