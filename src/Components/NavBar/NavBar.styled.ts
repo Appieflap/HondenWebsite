@@ -29,6 +29,47 @@ export const ListContainer = styled("ul")({
     fontWeight: 600,
 });
 
+export const CroppedNavContainer = styled("div")({
+    display: "flex",
+    alignItems: "center",
+    width: "100%",
+    color: "#959bf2",
+});
+
+export const DrawerContainer = styled("div",
+    { shouldForwardProp: (prop: string) => !["active"].includes(prop) },
+)(({ active }: { active: boolean }) => ({
+    display: "flex",
+    flexDirection: "column",
+    position: "fixed",
+    top: 60,
+    left: active ? 0 : -300,
+    width: "300px",
+    height: "100%",
+    backgroundColor: "white",
+    borderRight: "1px solid #e0e0e0",
+    borderTop: "1px solid #e0e0e0",
+    paddingTop: "20px",
+    transition: "left 0.3s ease",
+}));
+
+export const DrawerButton = styled("button")({
+    padding: "10px 20px",
+    backgroundColor: "white",
+    border: "none",
+    cursor: "pointer",
+    display: "flex",
+    justifyContent: "flex-start",
+    alignItems: "center",
+    transition: "background-color 0.3s ease",
+    fontSize: "16px",
+    marginBottom: "5px",
+    '&:hover': {
+        backgroundColor: "#959bf2",
+        color: "white",
+    },
+});
+
 export const ListItem = styled("li")({
     position: "relative",
     marginRight: "50px",

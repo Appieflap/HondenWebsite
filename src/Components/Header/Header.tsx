@@ -17,7 +17,7 @@ export const Header: FC = () => {
                         <div>Sittard, 6121 ZA</div>
                     </Styled.TextContainer>
                 </Styled.LocationContainer>
-                <img  src={mainLogo} alt="vrolijkStaartje"/>
+                <img src={mainLogo} alt="vrolijkStaartje"/>
                 <Styled.MailContainer>
                     <MailOutlinedIcon style={{ marginRight: "5px"}} />
                     Get in touch
