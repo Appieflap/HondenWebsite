@@ -6,10 +6,11 @@ export const Container = styled("div")({
     display: "flex",
     justifyContent: "center",
     backgroundImage: "url('home-bg-1.jpg')",
-    backgroundPosition: "right", // Centers the background image
-    backgroundRepeat: "no-repeat", // Prevents the background image from repeating
-    backgroundSize: "cover", // Scales the background image to be as large as possible
+    backgroundPosition: "right",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "auto",
     height: "600px",
+    backgroundColor: "#f0f0f0",
 });
 
 export const ContentContainer = styled("div")({
@@ -43,9 +44,12 @@ export const ReadMoreContainer = styled("div")({
     padding: "15px",
     cursor: "pointer",
     transition: "background-color 0.3s ease",
-    backgroundColor: "#959bf2",
+    border: "3px solid #775029",
+    backgroundColor: "#775029",
+    // sizing
     '&:hover': {
-        backgroundColor: "#000000",
-        color: "white",
+        backgroundColor: "#FFE5C4",
+        color: "#775029",
+        border: "3px solid #775029",
     },
 });

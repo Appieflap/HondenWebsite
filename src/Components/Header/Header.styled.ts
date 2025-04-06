@@ -6,7 +6,7 @@ export const Container = styled("div")({
     display: "flex",
     justifyContent: "center",
     // add border to bottom
-    borderBottom: "1px solid #959bf2",
+    borderBottom: "1px solid #775029",
 });
 
 export const ContentContainer = styled("div")({
@@ -37,20 +37,21 @@ export const TextContainer = styled("div")({
 export const MailContainer = styled("div")({
     fontFamily: "sans-serif",
     fontWeight: 600,
+    fontSize: "13px",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    width: "130px",
+    width: "150px",
     height: "20px",
     borderStyle: "solid",
-    borderColor: "#959bf2",
+    borderColor: "#775029",
     borderWidth: "3px",
     borderRadius: "7px",
     padding: "15px",
     cursor: "pointer",
     transition: "background-color 0.3s ease",
     '&:hover': {
-        backgroundColor: "#959bf2",
-        color: "white",
+        backgroundColor: "#FFE5C4",
+        color: "#775029",
     },
 });

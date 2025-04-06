@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { NavLink } from "react-router";
 
 export const Container = styled("div")({
     paddingLeft: "15px",
@@ -33,7 +34,7 @@ export const CroppedNavContainer = styled("div")({
     display: "flex",
     alignItems: "center",
     width: "100%",
-    color: "#959bf2",
+    color: "#775029",
 });
 
 export const DrawerContainer = styled("div",
@@ -53,7 +54,7 @@ export const DrawerContainer = styled("div",
     transition: "left 0.3s ease",
 }));
 
-export const DrawerButton = styled("button")({
+export const DrawerButton = styled(NavLink)({
     padding: "10px 20px",
     backgroundColor: "white",
     border: "none",
@@ -65,12 +66,15 @@ export const DrawerButton = styled("button")({
     fontSize: "16px",
     marginBottom: "5px",
     '&:hover': {
-        backgroundColor: "#959bf2",
+        backgroundColor: "#775029",
         color: "white",
     },
+    // remove any a href styling
+    color: "inherit",
+    textDecoration: "none",
 });
 
-export const ListItem = styled("li")({
+export const ListItem = styled(NavLink)({
     position: "relative",
     marginRight: "50px",
     cursor: "pointer",
@@ -84,7 +88,11 @@ export const ListItem = styled("li")({
         left: 0,
         width: 0,
         height: "2px",
-        backgroundColor: "#959cf3",
+        backgroundColor: "#775029",
         transition: "width 0.3s ease",
     },
+
+    // remove any a href styling
+    color: "inherit",
+    textDecoration: "none",
 });

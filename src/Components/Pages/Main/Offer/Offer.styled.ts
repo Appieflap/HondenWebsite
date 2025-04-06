@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { NavLink } from "react-router";
 
 export const Container = styled("div")({
     paddingLeft: "15px",
@@ -54,13 +55,16 @@ export const ItemTextBody = styled("span")({
     color: "#777777",
 });
 
-export const IconContainer = styled("div")({
-    width: "100px",
+export const IconContainer = styled(NavLink)({
+    minWidth: "100px",
     height: "100px",
     borderRadius: "50%",
-    backgroundColor: "#959cf3",
+    background: "linear-gradient(145deg, #ffe9cd 33%, #f4eae1 100%)",
+    border: "3px solid #775029",
     display: "flex",
-    color: "white",
+    color: "#775029",
     justifyContent: "center",
     alignItems: "center",
+    boxSizing: "border-box",
+    boxShadow: "inset 0 0 5px rgba(255, 255, 255, 0.5), 0 2px 8px rgba(0,0,0,0.1)",
 });

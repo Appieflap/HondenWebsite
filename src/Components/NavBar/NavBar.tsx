@@ -1,4 +1,4 @@
-import {FC, useState} from "react";
+import { FC, useState } from "react";
 import * as Styled from './NavBar.styled.ts';
 import { UseWindowSize } from "../../Hooks/UseWindowSize.tsx";
 import mainLogo from './logo.png';
@@ -14,15 +14,15 @@ export const NavBar: FC = () => {
                 <Styled.ContentContainer>
                     { windowSize.width > 768 ?
                         <Styled.ListContainer>
-                            <Styled.ListItem>Home</Styled.ListItem>
-                            <Styled.ListItem>Dog Training</Styled.ListItem>
-                            <Styled.ListItem>Grooming</Styled.ListItem>
-                            <Styled.ListItem>About Me</Styled.ListItem>
+                            <Styled.ListItem to="/">Startpagina</Styled.ListItem>
+                            <Styled.ListItem to="/grooming">Trimsalon</Styled.ListItem>
+                            <Styled.ListItem to="/dogtraining">Honden Training</Styled.ListItem>
+                            <Styled.ListItem to="/contact">Contact</Styled.ListItem>
                         </Styled.ListContainer>
                     :
                         <Styled.CroppedNavContainer>
                             <TableRowsIcon
-                                style={{cursor: "pointer", marginRight: "10px", fontSize: 30}}
+                                style={{ cursor: "pointer", marginRight: "10px", fontSize: 30 }}
                                 onClick={() => setActiveDrawer(!activeDrawer)}
                             />
                             <img src={mainLogo} alt="vrolijkStaartje"/>
@@ -32,10 +32,10 @@ export const NavBar: FC = () => {
             </Styled.Container>
             { windowSize.width <= 768 ?
             <Styled.DrawerContainer active={activeDrawer}>
-                <Styled.DrawerButton>Home</Styled.DrawerButton>
-                <Styled.DrawerButton>Dog Training</Styled.DrawerButton>
-                <Styled.DrawerButton>Grooming</Styled.DrawerButton>
-                <Styled.DrawerButton>About Me</Styled.DrawerButton>
+                <Styled.DrawerButton to="/">Home</Styled.DrawerButton>
+                <Styled.DrawerButton to="/grooming">Trimsalon</Styled.DrawerButton>
+                <Styled.DrawerButton to="/dogtraining">Honden Training</Styled.DrawerButton>
+                <Styled.DrawerButton to="/contact">Contact</Styled.DrawerButton>
             </Styled.DrawerContainer> : null }
         </>
     )
