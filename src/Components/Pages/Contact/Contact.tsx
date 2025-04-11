@@ -20,7 +20,7 @@ export const Contact: FC = () => {
                         📞 <a href="tel:0623443860">06-23 44 38 60</a>
                     </Styled.InfoLine>
                     <Styled.InfoLine>
-                        📧 <a href="mailto:vrolijkstaartje@hotmail.com">vrolijkstaartje@hotmail.com</a>
+                        📧 <a href="mailto:hondentraining-trimsalon@vrolijkstaartje.nl">hondentraining-trimsalon@vrolijkstaartje.nl</a>
                     </Styled.InfoLine>
                     <Styled.InfoLine>
                         🌐 <a href="https://www.vrolijkstaartje.nl" target="_blank" rel="noopener noreferrer">
@@ -30,6 +30,11 @@ export const Contact: FC = () => {
                     <Styled.InfoLine>
                         📘 <a href="https://www.facebook.com/profile.php?id=61574034723570" target="_blank" rel="noopener noreferrer">
                         Facebookpagina
+                    </a>
+                    </Styled.InfoLine>
+                    <Styled.InfoLine>
+                        📸 <a href="https://www.instagram.com/vrolijk_staartje/" target="_blank" rel="noopener noreferrer">
+                        Instagram
                     </a>
                     </Styled.InfoLine>
                 </Styled.ContainerBox>

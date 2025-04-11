@@ -19,27 +19,26 @@ Locatie/dagen les (groepslessen)
 - Dagen les (Woensdag middag [vanaf 14.00uur] / Zaterdag):
 
 Soort les
-  Puppy cursus
-  Basis cursus
-  Basis cursus
-  Puber cursus
-  Packed puppy/basis/puber cursus
-  Individueel (losse les)
-  Individueel (8 lessen)
-  Hond kind (losse les)
-  Hond kind (8 lessen)
-  Hond kind (3 maanden)
-  Hond kind (6 maanden)
+- Puppy cursus (ja/nee):
+- Basis cursus (ja/nee):
+- Puber cursus (ja/nee):
+- Packed puppy/basis/puber cursus (ja/nee):
+- Individueel [losse les] (ja/nee):
+- Individueel [8 lessen] (ja/nee):
+- Hond kind [losse les] (ja/nee):
+- Hond kind [8 lessen] (ja/nee):
+- Hond kind [3 maanden] (ja/nee):
+- Hond kind [6 maanden] (ja/nee):
 
 - Les:
 
 Ik verklaar dat ik de algemene voorwaarden heb gelezen en ga akkoord met de inhoud ervan.`);
 
-    const mailto = `mailto:vrolijkstaartje@hotmail.com?subject=${subject}&body=${body}`;
+    const mailto = `mailto:hondentraining-trimsalon@vrolijkstaartje.nl?subject=${subject}&body=${body}`;
 
     return (
         <a href={mailto} style={{ textDecoration: "none", color: "#5c67f2", fontWeight: 500 }}>
-            vrolijkstaartje@hotmail.com
+            hondentraining-trimsalon@vrolijkstaartje.nl
         </a>
     );
 };

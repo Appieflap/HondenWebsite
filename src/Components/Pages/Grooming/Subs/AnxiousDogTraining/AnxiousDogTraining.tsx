@@ -35,7 +35,7 @@ export const AnxiousDogTraining: FC = () => {
 
             <Styled.Contact>
                 Ben je geïnteresseerd?<br />
-                📧 Mail: <a href="mailto:vrolijkstaartje@hotmail.com">vrolijkstaartje@hotmail.com</a><br />
+                📧 Mail: <a href="mailto:hondentraining-trimsalon@vrolijkstaartje.nl">hondentraining-trimsalon@vrolijkstaartje.nl</a><br />
                 📱 WhatsApp: <a href="tel:+31623443860">06-23 44 38 60</a>
             </Styled.Contact>
         </>

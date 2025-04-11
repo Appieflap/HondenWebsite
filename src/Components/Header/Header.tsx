@@ -28,7 +28,7 @@ export const Header: FC = () => {
                 <img src={mainLogo} alt="vrolijkStaartje"/>
 
                 <a
-                    href="mailto:vrolijkstaartje@hotmail.com"
+                    href="mailto:hondentraining-trimsalon@vrolijkstaartje.nl"
                     style={{ textDecoration: "none", color: "inherit" }}
                 >
                     <Styled.MailContainer>

@@ -27,7 +27,7 @@ export const Workshops: FC = () => {
                 </ul>
                 Mocht u graag bepaalde materialen of andere benodigdheden willen kopen, dan kan je dit
                 bestellen bij mij.<br />
-                Ben je geïnteresseerd? Meld je aan via een e-mail: <a href="mailto:vrolijkstaartje@hotmail.com">vrolijkstaartje@hotmail.com</a><br />
+                Ben je geïnteresseerd? Meld je aan via een e-mail: <a href="mailto:hondentraining-trimsalon@vrolijkstaartje.nl">hondentraining-trimsalon@vrolijkstaartje.nl</a><br />
                 of stuur een bericht via WhatsApp: <a href="tel:+31623443860">06-23 44 38 60</a>
             </Styled.Paragraph>
 
@@ -47,7 +47,7 @@ export const Workshops: FC = () => {
                     <li>Welke klittenspray kan ik gebruiken bij klitten</li>
                 </ul>
                 Mocht u geïnteresseerd zijn in materialen of andere spullen, kunt u deze bestellen bij mij.<br />
-                Ben je geïnteresseerd? Meld je aan via een e-mail: <a href="mailto:vrolijkstaartje@hotmail.com">vrolijkstaartje@hotmail.com</a><br />
+                Ben je geïnteresseerd? Meld je aan via een e-mail: <a href="mailto:hondentraining-trimsalon@vrolijkstaartje.nl">hondentraining-trimsalon@vrolijkstaartje.nl</a><br />
                 of stuur een bericht via WhatsApp: <a href="tel:+31623443860">06-23 44 38 60</a>
             </Styled.Paragraph>
         </>
