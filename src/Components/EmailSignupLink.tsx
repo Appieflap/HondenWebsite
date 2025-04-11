@@ -30,8 +30,6 @@ Soort les
 - Hond kind [3 maanden] (ja/nee):
 - Hond kind [6 maanden] (ja/nee):
 
-- Les:
-
 Ik verklaar dat ik de algemene voorwaarden heb gelezen en ga akkoord met de inhoud ervan.`);
 
     const mailto = `mailto:hondentraining-trimsalon@vrolijkstaartje.nl?subject=${subject}&body=${body}`;
