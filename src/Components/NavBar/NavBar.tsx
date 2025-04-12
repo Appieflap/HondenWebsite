@@ -1,4 +1,4 @@
-import { FC, useEffect, useState } from "react";
+import { FC, useState } from "react";
 import * as Styled from './NavBar.styled.ts';
 import { UseWindowSize } from "../../Hooks/UseWindowSize.tsx";
 import mainLogo from './logo.png';
