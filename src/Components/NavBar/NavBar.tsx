@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import * as Styled from './NavBar.styled.ts';
 import { UseWindowSize } from "../../Hooks/UseWindowSize.tsx";
 import mainLogo from './logo.png';
@@ -32,10 +32,10 @@ export const NavBar: FC = () => {
             </Styled.Container>
             { windowSize.width <= 768 ?
             <Styled.DrawerContainer active={activeDrawer}>
-                <Styled.DrawerButton to="/">Home</Styled.DrawerButton>
-                <Styled.DrawerButton to="/grooming">Trimsalon</Styled.DrawerButton>
-                <Styled.DrawerButton to="/dogtraining">Honden Training</Styled.DrawerButton>
-                <Styled.DrawerButton to="/contact">Contact</Styled.DrawerButton>
+                <Styled.DrawerButton onClick={() => setActiveDrawer(false)} to="/">Home</Styled.DrawerButton>
+                <Styled.DrawerButton onClick={() => setActiveDrawer(false)} to="/grooming">Trimsalon</Styled.DrawerButton>
+                <Styled.DrawerButton onClick={() => setActiveDrawer(false)} to="/dogtraining">Honden Training</Styled.DrawerButton>
+                <Styled.DrawerButton onClick={() => setActiveDrawer(false)} to="/contact">Contact</Styled.DrawerButton>
             </Styled.DrawerContainer> : null }
         </>
     )
