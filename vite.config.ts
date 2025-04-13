@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/HondenWebsite/', // <-- this is the fix
+  base: '/',
   plugins: [react()],
 })

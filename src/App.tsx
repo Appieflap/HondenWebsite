@@ -15,7 +15,7 @@ function App() {
     const windowSize = UseWindowSize();
 
     return (
-        <BrowserRouter basename="/HondenWebsite/">
+        <BrowserRouter basename="/">
             <ScrollToTop />
             <Styled.Container>
                 {windowSize.width > 768 ? <Header /> : null}
