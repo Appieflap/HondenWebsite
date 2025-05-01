@@ -10,7 +10,7 @@ export const About: FC = () => {
                 <Styled.TextSection>
                     <Styled.Header>Over mij</Styled.Header>
                     <Styled.Paragraph>
-                        Ik ben Sharon Peeters, ik ben getrouwd, heb 2 dochters en een geweldige schoonbroer. Ik heb voor een lange tijd in de retail gewerkt als leidinggevende.
+                        Ik ben Sharon Peeters, ik ben getrouwd en ik heb 2 dochters. Ik heb voor een lange tijd in de retail gewerkt als leidinggevende.
                         Dit werk heb ik altijd met plezier gedaan, maar toch merkte ik dat ik graag iets anders zou willen doen. Ik heb als kind altijd al
                         willen werken met dieren. Dit komt ook omdat ik met dieren ben opgegroeid en het geweldig vind om met dieren bezig te zijn.
                     </Styled.Paragraph>
