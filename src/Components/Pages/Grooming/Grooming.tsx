@@ -21,12 +21,12 @@ export const Grooming: FC = () => {
                         </tr>
                         </thead>
                         <tbody>
-                        <tr><td>Knippen kleine hond</td><td>€ 70</td></tr>
-                        <tr><td>Knippen middel hond</td><td>€ 105</td></tr>
-                        <tr><td>Knippen grote hond</td><td>€ 140</td></tr>
-                        <tr><td>Plukken kleine hond</td><td>€ 70</td></tr>
-                        <tr><td>Plukken middel hond</td><td>€ 105</td></tr>
-                        <tr><td>Plukken grote hond</td><td>€ 140</td></tr>
+                        <tr><td>Knippen kleine hond</td><td>€ 60</td></tr>
+                        <tr><td>Knippen middel hond</td><td>€ 95</td></tr>
+                        <tr><td>Knippen grote hond</td><td>€ 120</td></tr>
+                        <tr><td>Plukken kleine hond</td><td>€ 60</td></tr>
+                        <tr><td>Plukken middel hond</td><td>€ 95</td></tr>
+                        <tr><td>Plukken grote hond</td><td>€ 120</td></tr>
                         <tr><td>Wassen &amp; blazen kleine hond (ontwollen)</td><td>€ 52,50</td></tr>
                         <tr><td>Wassen &amp; blazen middel hond (ontwollen)</td><td>€ 61,25</td></tr>
                         <tr><td>Wassen &amp; blazen grote hond (ontwollen)</td><td>€ 70</td></tr>
