@@ -37,6 +37,7 @@ export const Contact: FC = () => {
                         Instagram
                     </a>
                     </Styled.InfoLine>
+                    <Styled.InfoLine>🧾 KVK 97130362</Styled.InfoLine>
                 </Styled.ContainerBox>
             </Styled.ContentContainer>
         </Styled.Container>
