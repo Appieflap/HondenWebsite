@@ -56,8 +56,8 @@ export const Grooming: FC = () => {
                         <tr><td>Workshop vachtverzorging</td><td>€ 70</td></tr>
                         </tbody>
                     </Styled.Table>
-                    <Styled.Note>Staat het ras van jouw hond er niet bij en twijfel je over de prijs? Neem gerust contact op.</Styled.Note>
-                    <Styled.Note>LET OP: prijzen zijn onder voorbehoud, bij klitten zal er een klitten tarief gehanteerd worden.</Styled.Note>
+                    <Styled.Note>Staat het ras van jouw hond er niet bij en twijfel je over de prijs? Neem gerust contact op.<br></br>
+                        LET OP: prijzen zijn onder voorbehoud, bij klitten zal er een klitten tarief gehanteerd worden.</Styled.Note>
                 </Styled.Section>
 
                 <Styled.Section>
