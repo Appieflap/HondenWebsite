@@ -12,52 +12,9 @@ export const Grooming: FC = () => {
                 <Styled.Header>Trimsalon</Styled.Header>
 
                 <Styled.Section>
-                    <Styled.SubHeader>Prijslijst:</Styled.SubHeader>
-                    <Styled.Table>
-                        <thead>
-                        <tr>
-                            <th>Ras / Behandeling</th>
-                            <th>Prijs met openingskorting</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr><td>Australische Shepherd</td><td><s>€ 80</s> € 70</td></tr>
-                        <tr><td>Bearded Collie</td><td><s>€ 100</s> € 90</td></tr>
-                        <tr><td>Bernedoodle</td><td><s>€ 100</s> € 90</td></tr>
-                        <tr><td>Bichon Frise</td><td><s>€ 70</s> € 60</td></tr>
-                        <tr><td>Boomer</td><td><s>€ 70</s> € 60</td></tr>
-                        <tr><td>Border Collie</td><td><s>€ 80</s> € 70</td></tr>
-                        <tr><td>bouvier</td><td><s>€ 105</s> € 95</td></tr>
-                        <tr><td>Chihuahua</td><td><s>€ 60</s> € 50</td></tr>
-                        <tr><td>Cockapoo</td><td><s>€ 100</s> € 90</td></tr>
-                        <tr><td>Cocker Spaniel</td><td><s>€ 90</s> € 80</td></tr>
-                        <tr><td>Dwergkees </td><td><s>€ 70</s> € 60</td></tr>
-                        <tr><td>Dwergpoedel</td><td><s>€ 80</s> € 70</td></tr>
-                        <tr><td>Golden Doodle</td><td><s>€ 100</s> € 90</td></tr>
-                        <tr><td>Golden Retriever</td><td><s>€ 90</s> € 80</td></tr>
-                        <tr><td>Havanezer</td><td><s>€ 70</s> € 60</td></tr>
-                        <tr><td>Labradoodle</td><td><s>€ 100</s> € 90</td></tr>
-                        <tr><td>Lhasa Apso</td><td><s>€ 70</s> € 60</td></tr>
-                        <tr><td>Maltezer</td><td><s>€ 70</s> € 60</td></tr>
-                        <tr><td>Poedel middenslag</td><td><s>€ 100</s> € 90</td></tr>
-                        <tr><td>Pomeriaan</td><td><s>€ 65</s> € 55</td></tr>
-                        <tr><td>Shih Tzh</td><td><s>€ 70</s> € 60</td></tr>
-                        <tr><td>Siberische Husky</td><td><s>€ 80</s> € 70</td></tr>
-                        <tr><td>teckel gladhaar/langhaar</td><td><s>€ 60</s> € 50</td></tr>
-                        <tr><td>Teckel ruwhaar</td><td><s>€ 75</s> € 65</td></tr>
-                        <tr><td>Tibetaanse Terrier</td><td><s>€ 90</s> € 80</td></tr>
-                        <tr><td>Yorkshire Terrier</td><td><s>€ 60</s> € 50</td></tr>
-                        <tr><td>Puppy gewenning</td><td>€ 35</td></tr>
-                        <tr><td>Ontklitten</td><td>€ 6 per 10 min</td></tr>
-                        <tr><td>Nagels knippen</td><td>€ 9</td></tr>
-                        <tr><td>Borstelen</td><td>€ 35</td></tr>
-                        <tr><td>Trainen angstige honden</td><td>€ 70 per uur</td></tr>
-                        <tr><td>Workshop eigen hond knippen</td><td>€ 150</td></tr>
-                        <tr><td>Workshop vachtverzorging</td><td>€ 70</td></tr>
-                        </tbody>
-                    </Styled.Table>
-                    <Styled.Note>Staat het ras van jouw hond er niet bij en twijfel je over de prijs? Neem gerust contact op.<br></br>
-                        LET OP: prijzen zijn onder voorbehoud, bij klitten zal er een klitten tarief gehanteerd worden.</Styled.Note>
+                    <Styled.SubHeader>Prijzen</Styled.SubHeader>
+                    <Styled.Paragraph>De prijs is afhankelijk van uw hond en uw wensen.<br></br>
+                    Bel 06-23 44 38 60 of mail hondentraining-trimsalon@vrolijkstaartje.nl voor meer informatie en om een afspraak in te plannen.</Styled.Paragraph>
                 </Styled.Section>
 
                 <Styled.Section>
