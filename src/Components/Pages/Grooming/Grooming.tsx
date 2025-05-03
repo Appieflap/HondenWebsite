@@ -17,36 +17,36 @@ export const Grooming: FC = () => {
                         <thead>
                         <tr>
                             <th>Ras / Behandeling</th>
-                            <th>Prijs</th>
+                            <th>Prijs met openingskorting</th>
                         </tr>
                         </thead>
                         <tbody>
-                        <tr><td>Australische Shepherd</td><td>€ 80</td></tr>
-                        <tr><td>Bearded Collie</td><td>€ 100</td></tr>
-                        <tr><td>Bernedoodle</td><td>€ 100</td></tr>
-                        <tr><td>Bichon Frise</td><td>€ 70</td></tr>
-                        <tr><td>Boomer</td><td>€ 70</td></tr>
-                        <tr><td>Border Collie</td><td>€ 80</td></tr>
-                        <tr><td>bouvier</td><td>€ 105</td></tr>
-                        <tr><td>Chihuahua</td><td>€ 60</td></tr>
-                        <tr><td>Cockapoo</td><td>€ 100</td></tr>
-                        <tr><td>Cocker Spaniel</td><td>€ 90</td></tr>
-                        <tr><td>Dwergkees </td><td>€ 70</td></tr>
-                        <tr><td>Dwergpoedel</td><td>€ 80</td></tr>
-                        <tr><td>Golden Doodle</td><td>€ 100</td></tr>
-                        <tr><td>Golden Retriever</td><td>€ 90</td></tr>
-                        <tr><td>Havanezer</td><td>€ 70</td></tr>
-                        <tr><td>Labradoodle</td><td>€ 100</td></tr>
-                        <tr><td>Lhasa Apso</td><td>€ 70</td></tr>
-                        <tr><td>Maltezer</td><td>€ 70</td></tr>
-                        <tr><td>Poedel middenslag</td><td>€ 100</td></tr>
-                        <tr><td>Pomeriaan</td><td>€ 65</td></tr>
-                        <tr><td>Shih Tzh</td><td>€ 70</td></tr>
-                        <tr><td>Siberische Husky</td><td>€ 80</td></tr>
-                        <tr><td>teckel gladhaar/langhaar</td><td>€ 60</td></tr>
-                        <tr><td>Teckel ruwhaar</td><td>€ 75</td></tr>
-                        <tr><td>Tibetaanse Terrier</td><td>€ 90</td></tr>
-                        <tr><td>Yorkshire Terrier</td><td>€ 60</td></tr>
+                        <tr><td>Australische Shepherd</td><td><s>€ 80</s> € 70</td></tr>
+                        <tr><td>Bearded Collie</td><td><s>€ 100</s> € 90</td></tr>
+                        <tr><td>Bernedoodle</td><td><s>€ 100</s> € 90</td></tr>
+                        <tr><td>Bichon Frise</td><td><s>€ 70</s> € 60</td></tr>
+                        <tr><td>Boomer</td><td><s>€ 70</s> € 60</td></tr>
+                        <tr><td>Border Collie</td><td><s>€ 80</s> € 70</td></tr>
+                        <tr><td>bouvier</td><td><s>€ 105</s> € 95</td></tr>
+                        <tr><td>Chihuahua</td><td><s>€ 60</s> € 50</td></tr>
+                        <tr><td>Cockapoo</td><td><s>€ 100</s> € 90</td></tr>
+                        <tr><td>Cocker Spaniel</td><td><s>€ 90</s> € 80</td></tr>
+                        <tr><td>Dwergkees </td><td><s>€ 70</s> € 60</td></tr>
+                        <tr><td>Dwergpoedel</td><td><s>€ 80</s> € 70</td></tr>
+                        <tr><td>Golden Doodle</td><td><s>€ 100</s> € 90</td></tr>
+                        <tr><td>Golden Retriever</td><td><s>€ 90</s> € 80</td></tr>
+                        <tr><td>Havanezer</td><td><s>€ 70</s> € 60</td></tr>
+                        <tr><td>Labradoodle</td><td><s>€ 100</s> € 90</td></tr>
+                        <tr><td>Lhasa Apso</td><td><s>€ 70</s> € 60</td></tr>
+                        <tr><td>Maltezer</td><td><s>€ 70</s> € 60</td></tr>
+                        <tr><td>Poedel middenslag</td><td><s>€ 100</s> € 90</td></tr>
+                        <tr><td>Pomeriaan</td><td><s>€ 65</s> € 55</td></tr>
+                        <tr><td>Shih Tzh</td><td><s>€ 70</s> € 60</td></tr>
+                        <tr><td>Siberische Husky</td><td><s>€ 80</s> € 70</td></tr>
+                        <tr><td>teckel gladhaar/langhaar</td><td><s>€ 60</s> € 50</td></tr>
+                        <tr><td>Teckel ruwhaar</td><td><s>€ 75</s> € 65</td></tr>
+                        <tr><td>Tibetaanse Terrier</td><td><s>€ 90</s> € 80</td></tr>
+                        <tr><td>Yorkshire Terrier</td><td><s>€ 60</s> € 50</td></tr>
                         <tr><td>Puppy gewenning</td><td>€ 35</td></tr>
                         <tr><td>Ontklitten</td><td>€ 6 per 10 min</td></tr>
                         <tr><td>Nagels knippen</td><td>€ 9</td></tr>
