@@ -15,8 +15,8 @@ export const NavBar: FC = () => {
                     { windowSize.width > 768 ?
                         <Styled.ListContainer>
                             <Styled.ListItem to="/">Startpagina</Styled.ListItem>
-                            <Styled.ListItem to="/grooming">Trimsalon</Styled.ListItem>
                             <Styled.ListItem to="/dogtraining">Honden Training</Styled.ListItem>
+                            <Styled.ListItem to="/grooming">Trimsalon</Styled.ListItem>
                             <Styled.ListItem to="/contact">Contact</Styled.ListItem>
                         </Styled.ListContainer>
                     :
@@ -33,8 +33,8 @@ export const NavBar: FC = () => {
             { windowSize.width <= 768 ?
             <Styled.DrawerContainer active={activeDrawer}>
                 <Styled.DrawerButton onClick={() => setActiveDrawer(false)} to="/">Home</Styled.DrawerButton>
-                <Styled.DrawerButton onClick={() => setActiveDrawer(false)} to="/grooming">Trimsalon</Styled.DrawerButton>
                 <Styled.DrawerButton onClick={() => setActiveDrawer(false)} to="/dogtraining">Honden Training</Styled.DrawerButton>
+                <Styled.DrawerButton onClick={() => setActiveDrawer(false)} to="/grooming">Trimsalon</Styled.DrawerButton>
                 <Styled.DrawerButton onClick={() => setActiveDrawer(false)} to="/contact">Contact</Styled.DrawerButton>
             </Styled.DrawerContainer> : null }
         </>
