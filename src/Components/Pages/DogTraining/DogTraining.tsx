@@ -21,17 +21,17 @@ export const DogTraining: FC = () => {
                         </tr>
                         </thead>
                         <tbody>
-                        <tr><td>Puppy cursus 8 lessen, 45 min</td><td>€ 132</td></tr>
-                        <tr><td>Basis cursus 8 lessen, 45 min</td><td>€ 132</td></tr>
-                        <tr><td>Puber cursus 8 lessen, 45 min</td><td>€ 132</td></tr>
-                        <tr><td>individueel losse les 45 min</td><td>€ 70</td></tr>
-                        <tr><td>Individueel 8 lessen 45 min</td><td>€ 520</td></tr>
-                        <tr><td>Km vergoeding &gt;10 individueel</td><td>€ 0,30 per km</td></tr>
-                        <tr><td>puppy/basis/puber packed deal</td><td>€ 360</td></tr>
-                        <tr><td>Hond kind losse les</td><td>€ 70</td></tr>
-                        <tr><td>Hond kind 8 lessen</td><td>€ 520</td></tr>
-                        <tr><td>Hond kind 3 maanden traject</td><td>€ 810</td></tr>
-                        <tr><td>Hond kind 6 maanden traject</td><td>€ 1620</td></tr>
+                        <tr><td>Puppy cursus 8 lessen, 45 min</td><td>€ 115</td></tr>
+                        <tr><td>Basis cursus 8 lessen, 45 min</td><td>€ 115</td></tr>
+                        <tr><td>Puber cursus 8 lessen, 45 min</td><td>€ 115</td></tr>
+                        <tr><td>Puppy, basis en puber voordeel package 3x 8 lessen, 45 min</td><td>€ 330</td></tr>
+                        <tr></tr>
+                        <tr><td>Individueel (1-op-1) losse les, 45 min</td><td>€ 50</td></tr>
+                        <tr><td>Individueel (1-op-1) 8 lessen, 45 min</td><td>€ 375</td></tr>
+                        <tr><td>Km vergoeding &gt;10 km individueel (1-op-1)</td><td>€ 0,30 per km</td></tr>
+                        <tr></tr>
+                        <tr><td>Hond kind (1-op-1) losse les</td><td>€ 50</td></tr>
+                        <tr><td>Hond kind (1-op-1) 8 lessen</td><td>€ 375</td></tr>
                         </tbody>
                     </Styled.Table>
                 </Styled.Section>
