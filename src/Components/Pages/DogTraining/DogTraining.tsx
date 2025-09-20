@@ -12,7 +12,32 @@ export const DogTraining: FC = () => {
                 <Styled.Header>Hondentrainen</Styled.Header>
 
                 <Styled.Section>
-                    <Styled.SubHeader>Prijslijst:</Styled.SubHeader>
+                    <Styled.SubHeader>Agenda</Styled.SubHeader>
+                    <Styled.AgendaTable>
+                        <thead>
+                        <tr>
+                            <th>Cursus</th>
+                            <th>Startdatum</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr><td>Puppy cursus</td><td>01-11-2025</td></tr>
+                        <tr><td>Basis cursus</td><td>01-11-2025 en 29-11-2025</td></tr>
+                        <tr><td>Puber cursus</td><td>01-11-2025</td></tr>
+                        </tbody>
+                    </Styled.AgendaTable>
+                    <Styled.Paragraph>
+                        De lessen worden gehouden op zaterdagochtend en een cursus bestaat uit 8 lessen van 45 minuten.<br />
+                        - Puppycursus: start om 08:30 uur<br />
+                        - Basiscursus: start om 09:30 uur<br />
+                        - Pubercursus: start om 10:30 uur<br />
+                        Let op: de basiscursus die start op 29 november begint om 10:30 uur in plaats van 09:30 uur.<br />
+                        Tijden zijn onder voorbehoud en kunnen worden aangepast op basis van het aantal aanmeldingen of de planning van andere cursussen.
+                    </Styled.Paragraph>
+                </Styled.Section>
+
+                <Styled.Section>
+                    <Styled.SubHeader>Prijslijst</Styled.SubHeader>
                     <Styled.Table>
                         <thead>
                         <tr>

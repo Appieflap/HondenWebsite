@@ -91,3 +91,33 @@ export const Table = styled.table({
         th: { padding: "6px" },
     },
 });
+
+export const AgendaTable = styled.table({
+    width: "50%",
+    borderCollapse: "collapse",
+    th: {
+        textAlign: "left",
+        borderBottom: "2px solid #775029",
+        padding: "8px",
+    },
+
+    td: {
+        padding: "8px",
+        borderBottom: "1px solid #FFE5C4",
+    },
+
+
+    'tbody tr:nth-child(odd)': {
+        backgroundColor: "#fff7f0", // light gray
+    },
+
+    'tbody tr:nth-child(even)': {
+        backgroundColor: "white", // slightly darker gray
+    },
+
+    '@media (max-width: 600px)': {
+        fontSize: "14px",
+        td: { padding: "6px" },
+        th: { padding: "6px" },
+    },
+});
