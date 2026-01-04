@@ -14,10 +14,6 @@ export const EmailSignupLink: FC = () => {
 - Gevaccineerd (ja/nee):
 - Beschikbaar vanaf wanneer:
 
-Locatie/dagen les (groepslessen)
-- Locatie (Munstergeleen / Maria-Hoop):
-- Dagen les (Woensdag middag [vanaf 14.00uur] / Zaterdag):
-
 Soort les
 - Puppy cursus (ja/nee):
 - Basis cursus (ja/nee):
