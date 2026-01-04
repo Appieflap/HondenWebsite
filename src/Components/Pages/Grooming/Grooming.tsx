@@ -14,7 +14,7 @@ export const Grooming: FC = () => {
                 <Styled.Section>
                     <Styled.SubHeader>Prijzen</Styled.SubHeader>
                     <Styled.Paragraph>De prijs is afhankelijk van uw hond en uw wensen.<br></br>
-                    Bel 06-23 44 38 60 of mail hondentraining-trimsalon@vrolijkstaartje.nl voor meer informatie en om een afspraak in te plannen.</Styled.Paragraph>
+                    Bel <a href="tel:+31623443860">06-23 44 38 60</a> of mail <a href="mailto:hondentraining-trimsalon@vrolijkstaartje.nl">hondentraining-trimsalon@vrolijkstaartje.nl</a> voor meer informatie en om een afspraak in te plannen.</Styled.Paragraph>
                 </Styled.Section>
 
                 <Styled.Section>
