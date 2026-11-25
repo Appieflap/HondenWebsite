@@ -1031,6 +1031,9 @@ h1 .amp { color: var(--pink); }
   font-weight: 500;
   color: var(--text-muted);
 }
+.footer-credit { margin-top: 6px; font-size: 12px; font-weight: 400; opacity: 0.85; }
+.footer-credit a { color: inherit; font-weight: 600; text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 3px; transition: color 0.2s, text-decoration-color 0.2s; }
+.footer-credit a:hover, .footer-credit a:focus-visible { color: var(--sage-dark); text-decoration-color: currentColor; }
 
 /* ============ RESPONSIVE ============ */
 @media (max-width: 1280px) {
@@ -2255,6 +2258,7 @@ body.nav-open .wa-float { opacity: 0; pointer-events: none; }
 /* mobiel: alleen het ronde icoon, zodat er geen tekst over de inhoud valt */
 @media (max-width: 640px) {
   .wa-float { width: 56px; padding: 0; justify-content: center; right: max(14px, env(safe-area-inset-right)); bottom: max(14px, env(safe-area-inset-bottom)); }
+  .footer-bottom { padding-bottom: 84px; }
   .wa-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 }
 @media print { .wa-float { display: none; } }
