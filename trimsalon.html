@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trimsalon — Vrolijkstaartje</title>
+<link rel="icon" href="assets/logo.png">
+<link rel="preload" href="assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/playfair.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/caveat.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add("js");setTimeout(function(){document.documentElement.classList.add("reveal-ready")},2500);</script>
+<script src="site.js" defer></script>
+</head>
+<body class="training-page">
+
+<!-- ============ HEADER ============ -->
+<!-- header:start (gegenereerd — bewerk sync-header.py) -->
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <img class="brand-logo" src="assets/logo-full.png" alt="Vrolijkstaartje — Hondentraining &amp; Trimsalon">
+  </a>
+  <nav class="main-nav" id="main-nav" aria-label="Hoofdmenu">
+    <a href="index.html" data-label="Startpagina">Startpagina</a>
+    <a href="hondentraining.html" data-label="Hondentraining">Hondentraining</a>
+    <a href="trimsalon.html" data-label="Trimsalon" class="active" aria-current="page">Trimsalon</a>
+    <a href="contact.html" data-label="Contact">Contact</a>
+    <a href="contact.html" class="btn btn-primary nav-cta">
+      <svg viewBox="0 0 24 24" class="icon"><rect x="3" y="5.5" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m4.5 7.5 7.5 5.5 7.5-5.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Afspraak maken
+    </a>
+  </nav>
+  <a href="contact.html" class="btn btn-primary btn-header">
+    <svg viewBox="0 0 24 24" class="icon"><rect x="3" y="5.5" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m4.5 7.5 7.5 5.5 7.5-5.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Afspraak maken
+  </a>
+  <button class="nav-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Menu openen">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+<!-- header:end -->
+
+<!-- ============ HERO ============ -->
+<section class="training-hero">
+  <div class="th-left">
+    <p class="eyebrow">
+      <svg viewBox="0 0 24 24" class="icon heart"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z"/></svg>
+      Trimsalon
+    </p>
+
+    <h1>Verzorging met <br><span class="amp">liefde &amp; aandacht</span></h1>
+
+    <p class="lede">Een gezonde vacht, een blije hond en een ontspannen trimbeurt. <br>In onze trimsalon staat welzijn en vertrouwen altijd voorop.</p>
+
+    <ul class="th-features">
+      <li>
+        <span class="thf-circle"><svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.6" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="6" cy="18" r="2.6" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8.2 7.8 20 16.5M8.2 16.2 20 7.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>
+        <p>Professionele <br>verzorging</p>
+      </li>
+      <li>
+        <span class="thf-circle"><svg viewBox="0 0 24 24"><path d="M4 6.5h16M4 12h16M4 17.5h16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="9.5" cy="6.5" r="2.3" fill="#f7e3c5" stroke="currentColor" stroke-width="1.7"/><circle cx="15" cy="12" r="2.3" fill="#f7e3c5" stroke="currentColor" stroke-width="1.7"/><circle cx="7.5" cy="17.5" r="2.3" fill="#f7e3c5" stroke="currentColor" stroke-width="1.7"/></svg></span>
+        <p>Aanpak op maat</p>
+      </li>
+      <li>
+        <span class="thf-circle"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.3-8.9-8.2C1.6 8.6 3.6 5.3 6.8 5.3c2 0 3.3 1.1 5.2 2.9 1.9-1.8 3.2-2.9 5.2-2.9 3.2 0 5.2 3.3 3.7 6.5C18.999 15.7 12 20 12 20Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span>
+        <p>Rust &amp; <br>vertrouwen</p>
+      </li>
+      <li>
+        <span class="thf-circle"><svg viewBox="0 0 24 24"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg></span>
+        <p>Ervaren &amp; <br>gediplomeerd</p>
+      </li>
+      <li>
+        <span class="thf-circle"><svg viewBox="0 0 24 24"><path d="M10 3.5l1.7 4.8 4.8 1.7-4.8 1.7L10 16.5l-1.7-4.8-4.8-1.7 4.8-1.7Z"/><path d="M17.5 13.5l1.1 3 3 1.1-3 1.1-1.1 3-1.1-3-3-1.1 3-1.1Z"/></svg></span>
+        <p>Zorg met <br>liefde</p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="th-right">
+    <div class="th-scene">
+      <img class="th-bg" src="assets/th-blob.webp" alt="" aria-hidden="true">
+      <img class="th-dog" src="assets/dog12.webp" alt="Zwarte hond met blije uitdrukking">
+      <p class="th-blob-text"><svg class="th-blob-heart" viewBox="0 0 24 24"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z"/></svg><br>Met liefde <br>en geduld</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MAIN ============ -->
+<section class="training-main">
+
+  <!-- decorations -->
+  <img class="deco tm-leaf-r1" src="assets/deco-leaf-right.webp" alt="">
+  <img class="deco tm-leaf-l1" src="assets/deco-leaf-left.webp" alt="">
+  <img class="deco tm-leaf-r2" src="assets/deco-leaf-right.webp" alt="">
+  <img class="deco tm-leaf-l2" src="assets/deco-leaf-left.webp" alt="">
+  <svg class="deco tm-heart-big1" viewBox="0 0 24 24"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z"/></svg>
+  <svg class="deco tm-heart-big2" viewBox="0 0 24 24"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z"/></svg>
+  <svg class="deco tm-heart-big3" viewBox="0 0 24 24"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z"/></svg>
+  <svg class="deco tm-paw1" viewBox="0 0 24 24"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg>
+  <svg class="deco tm-paw2" viewBox="0 0 24 24"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg>
+  <svg class="deco tm-sprout" viewBox="0 0 70 110" fill="none">
+    <path d="M35 105C33 75 33 45 40 8" stroke="#b9c49e" stroke-width="2" stroke-linecap="round"/>
+    <path d="M36 78c-13-2-21-10-23-23 13 2 21 10 23 23Z" fill="#ccd6ae"/>
+    <path d="M35 56c13-4 19-13 19-26-13 4-19 13-19 26Z" fill="#c2cda2"/>
+    <path d="M37 36c-12-1-19-8-21-20 12 1 19 8 21 20Z" fill="#d4dcba"/>
+  </svg>
+  <svg class="deco tm-leaf-gold" viewBox="0 0 70 110" fill="none">
+    <path d="M35 105C33 75 33 45 40 8" stroke="#d3ac6c" stroke-width="2" stroke-linecap="round"/>
+    <path d="M36 78c-13-2-21-10-23-23 13 2 21 10 23 23Z" fill="#e3c28b"/>
+    <path d="M35 56c13-4 19-13 19-26-13 4-19 13-19 26Z" fill="#dcb877"/>
+    <path d="M37 36c-12-1-19-8-21-20 12 1 19 8 21 20Z" fill="#ecd2a2"/>
+  </svg>
+  <svg class="deco tm-sparkles" viewBox="0 0 60 80" fill="#d9ab55">
+    <path d="M20 2l3 11 11 3-11 3-3 11-3-11-11-3 11-3Z"/>
+    <path d="M44 34l2 7 7 2-7 2-2 7-2-7-7-2 7-2Z"/>
+    <path d="M16 56l2 7 7 2-7 2-2 7-2-7-7-2 7-2Z"/>
+  </svg>
+  <svg class="deco tm-sparkle-2" viewBox="0 0 40 40" fill="#d3ab55"><path d="M20 2l3 11 11 3-11 3-3 11-3-11-11-3 11-3Z"/></svg>
+  <svg class="deco tm-heart-sm1" viewBox="0 0 24 24" fill="#e8a9b0"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z"/></svg>
+  <svg class="deco tm-heart-sm2" viewBox="0 0 24 24" fill="#dd8f98"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z"/></svg>
+  <svg class="deco tm-heart-sm3" viewBox="0 0 24 24" fill="#e8a9b0"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z"/></svg>
+
+  <div class="tgrid tgrid-2">
+    <div class="tcol-prijs">
+
+      <!-- Prijzen -->
+      <div>
+        <h2 class="tr-title">
+          <svg viewBox="0 0 24 24" class="tr-icon" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M11.2 3.5H4.5a1 1 0 0 0-1 1v6.7a1 1 0 0 0 .3.7l8.6 8.6a1 1 0 0 0 1.4 0l6.7-6.7a1 1 0 0 0 0-1.4l-8.6-8.6a1 1 0 0 0-.7-.3Z"/><circle cx="8" cy="8" r="1.6"/></svg>
+          Prijzen
+        </h2>
+        <p class="body-text">De prijs is afhankelijk van uw hond en uw wensen.</p>
+        <div class="mail-box">
+          <svg class="mb-env" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M6.4 3.4c.8-.3 1.6 0 2 .7l1.5 2.7c.4.6.3 1.4-.2 1.9l-1.1 1.1c1 2.1 2.7 3.8 4.8 4.8l1.1-1.1c.5-.5 1.3-.6 1.9-.2l2.7 1.5c.7.4 1 1.2.7 2-.5 1.3-1.8 2.2-3.2 2C10.4 18 6 13.6 5.2 7.4 5 6 5.9 4.7 6.4 3.4Z"/></svg>
+          <p>Bel <a href="tel:+31623443860">06-23 44 38 60</a> of mail <a href="mailto:hondentraining-trimsalon@vrolijkstaartje.nl">hondentraining-trimsalon@vrolijkstaartje.nl</a> voor meer informatie en om een afspraak in te plannen.</p>
+          <svg class="mb-paw" viewBox="0 0 24 24"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg>
+        </div>
+      </div>
+
+      <!-- Trainen angstige hond -->
+      <div class="ts-block">
+        <h2 class="tr-title ts-title-green">
+          <svg viewBox="0 0 24 24" class="tr-icon ts-heart"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z"/></svg>
+          Trainen angstige hond
+        </h2>
+        <p class="body-text gz-strong">Trainen angstige hond in de trimsalon:</p>
+        <p class="body-text">Is uw hond bang in de trimsalon of voor een bepaalde behandeling? Dan help ik u graag.</p>
+        <p class="body-text">Ik heb de opleiding tot hondentrainer gevolgd waardoor ik u en uw hond kan helpen om een trimbehandeling minder eng te maken.</p>
+        <p class="body-text gz-strong">Voorbeelden die kunnen voorkomen in de trimsalon:</p>
+        <ul class="heart-list">
+          <li>Bang voor het wassen</li>
+          <li>Bang voor het droogblazen van de vacht</li>
+          <li>Bang voor borstel of kam</li>
+          <li>Bang om nagels te knippen</li>
+          <li>Pootjes mogen niet aangeraakt worden</li>
+        </ul>
+        <p class="body-text">Is uw hond bang voor een van deze dingen of iets anders en wilt u dit graag trainen? Neem gerust contact op. We gaan samen kijken hoe we u en uw hond kunnen helpen om een trimbehandeling weer leuk te maken.</p>
+        <p class="body-text">We zoeken naar de oorzaak van de angst en stellen vervolgens een passend trainingsprogramma op. Stap voor stap oefenen we, zodat uw hond vertrouwen krijgt in de behandeling.</p>
+        <p class="gz-sub">Ben je ge&iuml;nteresseerd?</p>
+        <ul class="ts-contact">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m4.5 7.5 7.5 5.5 7.5-5.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Mail: <a href="mailto:hondentraining-trimsalon@vrolijkstaartje.nl">hondentraining-trimsalon@vrolijkstaartje.nl</a></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 3.5a8.5 8.5 0 0 0-7.3 12.9L3.5 20.5l4.2-1.1A8.5 8.5 0 1 0 12 3.5Z"/></svg>WhatsApp: <a href="https://wa.me/31623443860" target="_blank" rel="noopener">06-23 44 38 60</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Behandelingsinformatie -->
+    <div class="tcol-cursussen">
+      <div>
+        <h2 class="tr-title">
+          <svg viewBox="0 0 24 24" class="tr-icon"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg>
+          Behandelingsinformatie
+        </h2>
+
+        <div class="bi-item">
+          <span class="bi-circle"><img src="assets/bi-knippen.webp" alt=""></span>
+          <div>
+            <h3 class="bi-h">Knippen/effileren:</h3>
+            <p class="bi-text">De vacht wordt met een schaar of effileerschaar in elk gewenst model gebracht. De honden worden geknipt volgens rassenstandaard. Mocht u liever iets anders willen, kunnen wij dit altijd bespreken.</p>
+          </div>
+        </div>
+
+        <div class="bi-item">
+          <span class="bi-circle"><img src="assets/bi-plukken.webp" alt=""></span>
+          <div>
+            <h3 class="bi-h">Plukken:</h3>
+            <p class="bi-text">Plukken is het verwijderen van de bovenste dode haarlaag. Plukken gebeurt wanneer de vacht rijp is om geplukt te worden. Dit merk je wanneer je de bovenste haarlaag zonder moeite eruit kan plukken. Hierdoor is het niet pijnlijk voor de hond. Plukken wordt ongeveer 2 tot 4 keer per jaar gedaan. De hond wordt niet gewassen om huidontstekingen te voorkomen. Mocht u toch graag uw hond gewassen willen hebben, kunnen we een aparte behandeling inplannen minimaal 1 week erna.</p>
+          </div>
+        </div>
+
+        <div class="bi-item">
+          <span class="bi-circle"><img src="assets/bi-wassen.webp" alt=""></span>
+          <div>
+            <h3 class="bi-h">Wassen/drogen/ontwollen:</h3>
+            <p class="bi-text">Om de huid zo goed mogelijk te reinigen, wordt de hond gewassen en daarna droog geblazen met een waterblazer. Dit zorgt ervoor dat uw hond weer lekker fris is. Wij hebben verschillende shampoos die goed aansluiten bij de vacht van de hond. Bij ontwollen verwijderen we de oude ondervacht. Dit wordt gedaan door de was en blaas methode toe te passen. Door eerst te wassen laten de losse haren los, doordat ze zwaar worden van het water. De kracht van de waterblazer zal daarna alle losse haren uit de vacht blazen.</p>
+          </div>
+        </div>
+
+        <div class="bi-item">
+          <span class="bi-circle"><img src="assets/bi-scheren.webp" alt=""></span>
+          <div>
+            <h3 class="bi-h">Scheren:</h3>
+            <p class="bi-text">Hierbij wordt de vacht ingekort met een tondeuse, de lengte kunt u zelf bepalen mits dit mogelijk is voor de hond.</p>
+          </div>
+        </div>
+
+        <div class="bi-item">
+          <span class="bi-circle"><img src="assets/bi-nagels.webp" alt=""></span>
+          <div>
+            <h3 class="bi-h">Nagels knippen:</h3>
+            <p class="bi-text">De nagels van uw hond worden geknipt op de juiste lengte.</p>
+          </div>
+        </div>
+
+        <div class="bi-item">
+          <span class="bi-circle"><img src="assets/bi-puppy.webp" alt=""></span>
+          <div>
+            <h3 class="bi-h">Puppy gewenning:</h3>
+            <p class="bi-text">Puppy gewenning kan vanaf 10 weken. De bedoeling van deze behandeling is dat uw hond al kan wennen aan de salon en het aanraken van uw hond. De behandeling bestaat uit: borstelen, oogjes vrij knippen, haren onder de pootjes wegknippen en het knippen van de nagels. De waterblazer wordt even aangezet zodat de pup kan wennen aan het geluid.</p>
+          </div>
+        </div>
+
+        <div class="bi-item">
+          <span class="bi-circle"><img src="assets/bi-ontklitten.webp" alt=""></span>
+          <div>
+            <h3 class="bi-h">Ontklitten:</h3>
+            <p class="bi-text">Wanneer uw hond klitten heeft worden deze eruit geborsteld. Dit kost extra werk en worden er extra kosten in rekening gebracht. Als de klitten te erg zijn worden ze weggeknipt of zal de hond helaas kort geschoren worden. Mocht dit nodig zijn zal dit altijd in overleg gebeuren. Het welzijn van de hond staat altijd voorop zodat de hond geen pijn zal hebben onder de behandeling!</p>
+          </div>
+        </div>
+
+        <div class="bi-item">
+          <span class="bi-circle"><img src="assets/bi-borstelen.webp" alt=""></span>
+          <div>
+            <h3 class="bi-h">Borstelen:</h3>
+            <p class="bi-text">Heeft uw geen tijd om de hond goed te borstelen om klitten te voorkomen tot aan de nieuwe behandeling? Dan kan uw een borstel afspraak tussen de behandelingen door maken. Ik zal uw hond grondig borstelen zodat hij weer klitten vrij is.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Workshops -->
+  <div class="tgrid ts-workshops">
+    <h2 class="tr-title">
+      <svg viewBox="0 0 24 24" class="tr-icon" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 9 12 4.5 21.5 9 12 13.5 2.5 9Z"/><path d="M6.5 11.3v3.5c0 1.3 2.5 2.5 5.5 2.5s5.5-1.2 5.5-2.5v-3.5"/><path d="M21.5 9v4.6"/></svg>
+      Workshops
+    </h2>
+    <div class="gz-cols">
+      <div class="gz-col">
+        <h3 class="ws-h">Workshop eigen hond knippen/plukken:</h3>
+        <p class="body-text">Wilt u graag leren om uw eigen hond te leren knippen of plukken? Dan meldt u zich aan voor de workshop eigen hond knippen/plukken. Tijdens deze workshop zal u leren hoe u uw eigen hond een trimbehandeling geeft. Tijdens deze workshop zal u zelf voor een schaar, borstel en kam moeten zorgen.</p>
+        <ul class="paw-list">
+          <li>De workshop zal met een groep van 3 &agrave; 4 personen zijn.</li>
+          <li>Duur workshop: 5 uur</li>
+          <li>Prijs p.p.: &euro; 150</li>
+          <li>Er is koffie of thee aanwezig en iets lekkers voor tussendoor.</li>
+        </ul>
+        <p class="gz-sub">Tijdens deze workshop behandelen we deze punten:</p>
+        <ul class="paw-list">
+          <li>Model knippen of plukken van uw hond</li>
+          <li>Oogjes vrij knippen</li>
+          <li>Voetjes vrij scheren of knippen</li>
+          <li>Nagels knippen</li>
+          <li>Borstelen en kammen, zodat de hond klitvrij is</li>
+          <li>Welke benodigdheden u nodig heeft, denk aan shampoo, klittenspray, borstels, enz.</li>
+        </ul>
+        <p class="body-text">Mocht u graag bepaalde materialen of andere benodigdheden willen kopen, dan kan je dit bestellen bij mij.</p>
+        <p class="ws-signup">Ben je ge&iuml;nteresseerd? Meld je aan via een e-mail: <br><a href="mailto:hondentraining-trimsalon@vrolijkstaartje.nl">hondentraining-trimsalon@vrolijkstaartje.nl</a><br>of stuur een bericht via WhatsApp: <a href="https://wa.me/31623443860" target="_blank" rel="noopener">06-23 44 38 60</a></p>
+      </div>
+      <div class="gz-col">
+        <h3 class="ws-h">Workshop Vachtverzorging:</h3>
+        <p class="body-text">Wilt u graag meer leren over het borstelen of klittenvrij houden van uw hond? Dan is deze workshop iets voor u.</p>
+        <ul class="paw-list">
+          <li>Duur workshop: 90 min</li>
+          <li>Prijs p.p.: &euro; 70</li>
+          <li>Deze workshop kan individueel of met meerdere personen gehouden worden.</li>
+        </ul>
+        <p class="gz-sub">Tijdens deze workshop behandelen we deze punten:</p>
+        <ul class="paw-list">
+          <li>Welke borstel en kam heb ik nodig voor mijn hond</li>
+          <li>Hoe borstel of kam ik mijn hond het beste om klitten te voorkomen</li>
+          <li>Hoe knip ik de ogen vrij van mijn hond</li>
+          <li>Haren verwijderen tussen de poten</li>
+          <li>Welke klittenspray kan ik gebruiken bij klitten</li>
+        </ul>
+        <p class="body-text">Mocht u ge&iuml;nteresseerd zijn in materialen of andere spullen, kunt u deze bestellen bij mij.</p>
+        <p class="ws-signup">Ben je ge&iuml;nteresseerd? Meld je aan via een e-mail: <br><a href="mailto:hondentraining-trimsalon@vrolijkstaartje.nl">hondentraining-trimsalon@vrolijkstaartje.nl</a><br>of stuur een bericht via WhatsApp: <a href="https://wa.me/31623443860" target="_blank" rel="noopener">06-23 44 38 60</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Afspraak-notitie -->
+  <div class="tgrid ts-notice">
+    <div class="ts-note">
+      <span class="ts-note-circle"><svg viewBox="0 0 24 24"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg></span>
+      <p>Bij het brengen van de hond wordt een tijd afgesproken. Bij uitloop wordt u ge&iuml;nformeerd. <br>Ophalen binnen 30 minuten na klaar zijn, anders wordt er &euro; 15 in rekening gebracht. <br>Door een afspraak te maken gaat u akkoord met de <a href="#algemene-voorwaarden">algemene voorwaarden</a>.</p>
+    </div>
+  </div>
+
+  <!-- algemene voorwaarden -->
+  <div class="tgrid tgrid-av" id="algemene-voorwaarden">
+    <h2 class="tr-title tr-title-s">
+      <svg class="tr-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3.5h7l4 4V20a.5.5 0 0 1-.5.5h-10A.5.5 0 0 1 7 20V3.5Z"/><path d="M14 3.5v4h4"/><path d="M9.5 12h5M9.5 15.5h5M9.5 8.5h2"/></svg>
+      Algemene voorwaarden
+    </h2>
+    <p class="body-text av-intro">Door een afspraak te maken ga je akkoord met onze algemene voorwaarden.</p>
+    <div class="av-box" tabindex="0">
+      <h4>1. Algemeen</h4>
+      <p><b>1.1</b> Deze algemene voorwaarden zijn van toepassing op alle afspraken en diensten die worden geleverd door Trimsalon Vrolijk Staartje aan haar klanten.</p>
+      <p><b>1.2</b> Door een afspraak te maken bij onze salon, gaat de klant akkoord met deze algemene voorwaarden.</p>
+      <h4>2. Afspraken en annuleringen</h4>
+      <p><b>2.1</b> Een afspraak maken kan telefonisch, via e-mail, of online via de website van de trimsalon.</p>
+      <p><b>2.2</b> Annuleren of wijzigen van een afspraak kan tot 48 uur voor de afgesproken tijd kosteloos. Bij annuleringen binnen 24 uur voor de afspraak wordt er &euro; 35 in rekening gebracht.</p>
+      <p><b>2.3</b> Bij niet opkomen voor een afspraak (no-show) wordt er &euro; 50 in rekening gebracht.</p>
+      <p><b>2.4</b> Wij behouden ons het recht voor om een afspraak te weigeren als het huisdier of de situatie dit niet toelaat.</p>
+      <h4>3. Betaling</h4>
+      <p><b>3.1</b> Betaling dient na afloop van de behandeling te geschieden, tenzij anders afgesproken.</p>
+      <p><b>3.2</b> Wij accepteren betalingen via contant of pin.</p>
+      <p><b>3.3</b> Alle vermelde prijzen zijn inclusief btw. De salon behoudt zich het recht voor om tarieven aan te passen. Wijzigingen worden van tevoren gecommuniceerd.</p>
+      <h4>4. Gezondheid en veiligheid van huisdieren</h4>
+      <p><b>4.1</b> De klant is verplicht om de trimsalon te informeren over de gezondheid van hun huisdier (bijvoorbeeld medicatie, allergie&euml;n, medische aandoeningen of gedragsproblemen).</p>
+      <p><b>4.2</b> De trimsalon behoudt zich het recht voor om een huisdier te weigeren of de behandeling te be&euml;indigen als het huisdier zich agressief gedraagt of een risico vormt voor de gezondheid van het huisdier of het personeel.</p>
+      <p><b>4.3</b> Indien het huisdier tijdens de behandeling gewond raakt door een onderliggende gezondheidsproblematiek die niet is gemeld, kan de trimsalon niet aansprakelijk worden gesteld.</p>
+      <h4>5. Verantwoordelijkheid en aansprakelijkheid</h4>
+      <p><b>5.1</b> De trimsalon is niet aansprakelijk voor schade of verwondingen die ontstaan door de normale uitvoering van de behandeling, tenzij dit te wijten is aan opzet of grove nalatigheid.</p>
+      <p><b>5.2</b> Eventuele schade aan het huisdier kan worden besproken, maar vaak is de salon niet aansprakelijk voor incidenten die buiten haar controle liggen.</p>
+      <p><b>5.3</b> De trimsalon is niet aansprakelijk voor verlies van eigendommen van de klant (zoals halsbanden of andere accessoires).</p>
+      <h4>6. Huisregels</h4>
+      <p><b>6.1</b> De klant is verantwoordelijk voor het gedrag van hun huisdier tijdens de behandeling.</p>
+      <p><b>6.2</b> Indien een huisdier agressief is of niet te hanteren is, kan de trimsalon besluiten de behandeling te stoppen.</p>
+      <p><b>6.3</b> De klant dient het huisdier op tijd af te leveren en op te halen. Indien dit niet gebeurt, kunnen extra kosten in rekening worden gebracht voor opvang of vertraging.</p>
+      <p><b>6.4</b> Klanten worden verzocht om hun huisdier niet met open wonden of een besmettelijke aandoening naar de salon te brengen.</p>
+      <h4>7. Producten en behandelingen</h4>
+      <p><b>7.1</b> De trimsalon gebruikt kwaliteitsproducten die veilig zijn voor uw huisdier. Als de klant specifieke voorkeuren heeft voor producten, kan dit vooraf worden aangegeven.</p>
+      <p><b>7.2</b> De trimsalon biedt verschillende behandelingen aan. De prijs en duur van de behandeling worden vooraf met de klant besproken.</p>
+      <p><b>7.3</b> De klant kan verzoeken om een bepaalde stijl of behandeling, maar de trimsalon garandeert niet altijd het gewenste resultaat door factoren zoals het gedrag van het huisdier of de conditie van de vacht.</p>
+      <h4>8. Privacy en gegevens</h4>
+      <p><b>8.1</b> De trimsalon verwerkt persoonlijke gegevens van klanten in overeenstemming met de privacywetgeving.</p>
+      <p><b>8.2</b> Gegevens worden uitsluitend gebruikt voor het uitvoeren van de diensten en voor administratieve doeleinden, en zullen niet zonder toestemming van de klant worden gedeeld met derden.</p>
+      <h4>9. Wijzigingen</h4>
+      <p><b>9.1</b> Deze algemene voorwaarden kunnen zonder voorafgaande kennisgeving worden aangepast. De meest recente versie is altijd beschikbaar op onze website of kan op verzoek worden verstrekt.</p>
+      <h4>Ondertekening</h4>
+      <p>Door een afspraak te maken, verklaart de klant deze algemene voorwaarden te hebben gelezen en ermee akkoord te gaan.</p>
+    </div>
+  </div>
+
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <svg class="footer-wave" viewBox="0 0 1440 110" preserveAspectRatio="none" aria-hidden="true">
+    <path fill="rgb(240 220 190)" d="M0 60C140 38 300 26 460 34C640 43 780 64 960 62C1140 60 1310 40 1440 26V110H0Z"/>
+  </svg>
+  <div class="footer-pawcircle" aria-hidden="true">
+    <svg viewBox="0 0 140 140">
+      <circle cx="70" cy="70" r="68" class="stamp-bg"/>
+      <circle cx="70" cy="70" r="63" fill="none" class="stamp-ring"/>
+      <defs>
+        <path id="stampTopF" d="M22 70a48 48 0 0 1 96 0"/>
+        <path id="stampBottomF" d="M13 70a57 57 0 0 0 114 0"/>
+      </defs>
+      <text class="stamp-text"><textPath href="#stampTopF" startOffset="50%" text-anchor="middle">BLIJE STAARTJES</textPath></text>
+      <text class="stamp-text"><textPath href="#stampBottomF" startOffset="50%" text-anchor="middle">SINDS DAG ÉÉN</textPath></text>
+      <circle cx="17.5" cy="70" r="2" class="stamp-dot"/>
+      <circle cx="122.5" cy="70" r="2" class="stamp-dot"/>
+      <g class="stamp-paw" transform="translate(70 72) scale(1.8)">
+        <ellipse cx="-9" cy="-6.5" rx="3.1" ry="4.4" transform="rotate(-20 -9 -6.5)"/>
+        <ellipse cx="-3.2" cy="-10" rx="3.1" ry="4.6"/>
+        <ellipse cx="3.2" cy="-10" rx="3.1" ry="4.6"/>
+        <ellipse cx="9" cy="-6.5" rx="3.1" ry="4.4" transform="rotate(20 9 -6.5)"/>
+        <path d="M0-3.8c-4 0-7.9 4.9-7.9 8.5 0 2.4 1.7 3.8 3.8 3.8 1.6 0 2.6-.7 4.1-.7s2.5.7 4.1.7c2.1 0 3.8-1.4 3.8-3.8 0-3.6-3.9-8.5-7.9-8.5Z"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="footer-main">
+    <svg class="fdeco f-leaf-tr" viewBox="0 0 70 110" fill="none" aria-hidden="true">
+      <path d="M35 105C33 75 33 45 40 8" stroke="#b9c49e" stroke-width="2" stroke-linecap="round"/>
+      <path d="M36 78c-13-2-21-10-23-23 13 2 21 10 23 23Z" fill="#ccd6ae"/>
+      <path d="M35 56c13-4 19-13 19-26-13 4-19 13-19 26Z" fill="#c2cda2"/>
+      <path d="M37 36c-12-1-19-8-21-20 12 1 19 8 21 20Z" fill="#d4dcba"/>
+    </svg>
+    <svg class="fdeco f-leaf-r" viewBox="0 0 70 110" fill="none" aria-hidden="true">
+      <path d="M35 105C33 75 33 45 40 8" stroke="#b9c49e" stroke-width="2" stroke-linecap="round"/>
+      <path d="M36 78c-13-2-21-10-23-23 13 2 21 10 23 23Z" fill="#ccd6ae"/>
+      <path d="M35 56c13-4 19-13 19-26-13 4-19 13-19 26Z" fill="#c2cda2"/>
+      <path d="M37 36c-12-1-19-8-21-20 12 1 19 8 21 20Z" fill="#d4dcba"/>
+    </svg>
+    <svg class="fdeco f-sparkle-1" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 2l3 11 11 3-11 3-3 11-3-11-11-3 11-3Z" fill="#d3ab55"/></svg>
+    <svg class="fdeco f-sparkle-2" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 2l3 11 11 3-11 3-3 11-3-11-11-3 11-3Z" fill="#d3ab55"/></svg>
+    <svg class="fdeco f-heart-1" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z" fill="#e8a9b0"/></svg>
+    <svg class="fdeco f-heart-2" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z" fill="#e8a9b0"/></svg>
+    <svg class="fdeco f-heart-3" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z" fill="#dd8f98"/></svg>
+    <svg class="fdeco f-flower" viewBox="0 0 40 40" aria-hidden="true">
+      <g stroke="#c9a24b" stroke-width="1.5" fill="none">
+        <ellipse cx="20" cy="12" rx="3.2" ry="5.2"/>
+        <ellipse cx="20" cy="12" rx="3.2" ry="5.2" transform="rotate(72 20 20)"/>
+        <ellipse cx="20" cy="12" rx="3.2" ry="5.2" transform="rotate(144 20 20)"/>
+        <ellipse cx="20" cy="12" rx="3.2" ry="5.2" transform="rotate(216 20 20)"/>
+        <ellipse cx="20" cy="12" rx="3.2" ry="5.2" transform="rotate(288 20 20)"/>
+      </g>
+      <circle cx="20" cy="20" r="2.6" fill="#c9a24b"/>
+    </svg>
+
+    <div class="footer-body">
+      <div class="footer-col footer-brand">
+        <img src="assets/logo-full.png" alt="Vrolijkstaartje">
+        <p class="footer-script">Blije hond. Schone hond. Geliefde hond. <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigatie</h4>
+        <ul class="footer-nav">
+          <li><svg class="li-paw" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg><a href="index.html">Startpagina</a></li>
+          <li><svg class="li-paw" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg><a href="hondentraining.html">Honden training</a></li>
+          <li><svg class="li-paw" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg><a href="trimsalon.html">Trimsalon</a></li>
+          <li><svg class="li-paw" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul class="footer-contact">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.7 2 6 4.7 6 8.1c0 4.5 6 11.9 6 11.9s6-7.4 6-11.9C18 4.7 15.3 2 12 2Zm0 8.4a2.3 2.3 0 1 1 0-4.6 2.3 2.3 0 0 1 0 4.6Z" fill="currentColor"/></svg><a href="https://www.google.com/maps/search/?api=1&amp;query=Hofstraat+27A%2C+6161+AP+Geleen" target="_blank" rel="noopener">Hofstraat 27 A</a></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2 3 11h2.2v9h5.2v-5.6h3.2V20h5.2v-9H21L12 3.2Z" fill="currentColor"/></svg><a href="https://www.google.com/maps/search/?api=1&amp;query=Hofstraat+27A%2C+6161+AP+Geleen" target="_blank" rel="noopener">6161 AP Geleen</a></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 15.6c-1.2 0-2.5-.2-3.6-.6-.35-.12-.75-.03-1.02.25l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.28-.28.36-.67.25-1.02-.4-1.15-.6-2.4-.6-3.67 0-.55-.45-1-1-1H4.4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.44c0-.55-.45-1-1-1Z" fill="currentColor"/></svg><a href="tel:+31623443860">06-23 44 38 60</a></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m4.5 7.5 7.5 5.5 7.5-5.5"/></svg><a href="mailto:info@vrolijkstaartje.nl">info@vrolijkstaartje.nl</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <svg class="footer-wave-bottom" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+    <path fill="rgb(240 220 190)" d="M0 0H1440V16C1330 26 1210 52 1080 54C950 56 850 22 720 20C590 18 490 56 360 54C230 52 110 26 0 16Z"/>
+  </svg>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Vrolijk Staartje. Alle rechten voorbehouden. KvK 97130362</p>
+  </div>
+</footer>
+<!-- zwevende WhatsApp-knop -->
+<a class="wa-float" href="https://wa.me/31623443860?text=Hallo%20Sharon%2C%20ik%20heb%20een%20vraag%20over%20" target="_blank" rel="noopener" aria-label="Stuur een WhatsApp-bericht">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 1.67c2.2 0 4.26.86 5.82 2.42a8.2 8.2 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23-1.48 0-2.93-.4-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24ZM8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.16-.48-.29-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.78.97-.15.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.85-.2-.48-.4-.42-.56-.43l-.47-.01Z"/></svg>
+  <span class="wa-label">WhatsApp ons</span>
+</a>
+</body>
+</html>

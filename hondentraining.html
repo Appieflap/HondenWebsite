@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hondentraining — Vrolijkstaartje</title>
+<link rel="icon" href="assets/logo.png">
+<link rel="preload" href="assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/playfair.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/caveat.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add("js");setTimeout(function(){document.documentElement.classList.add("reveal-ready")},2500);</script>
+<script src="site.js" defer></script>
+</head>
+<body class="training-page">
+
+<!-- ============ HEADER ============ -->
+<!-- header:start (gegenereerd — bewerk sync-header.py) -->
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <img class="brand-logo" src="assets/logo-full.png" alt="Vrolijkstaartje — Hondentraining &amp; Trimsalon">
+  </a>
+  <nav class="main-nav" id="main-nav" aria-label="Hoofdmenu">
+    <a href="index.html" data-label="Startpagina">Startpagina</a>
+    <a href="hondentraining.html" data-label="Hondentraining" class="active" aria-current="page">Hondentraining</a>
+    <a href="trimsalon.html" data-label="Trimsalon">Trimsalon</a>
+    <a href="contact.html" data-label="Contact">Contact</a>
+    <a href="contact.html" class="btn btn-primary nav-cta">
+      <svg viewBox="0 0 24 24" class="icon"><rect x="3" y="5.5" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m4.5 7.5 7.5 5.5 7.5-5.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Afspraak maken
+    </a>
+  </nav>
+  <a href="contact.html" class="btn btn-primary btn-header">
+    <svg viewBox="0 0 24 24" class="icon"><rect x="3" y="5.5" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m4.5 7.5 7.5 5.5 7.5-5.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Afspraak maken
+  </a>
+  <button class="nav-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Menu openen">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+<!-- header:end -->
+
+<!-- ============ HERO ============ -->
+<section class="training-hero">
+  <div class="th-left">
+    <p class="eyebrow">
+      <svg viewBox="0 0 24 24" class="icon heart"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z"/></svg>
+      Honden training
+    </p>
+
+    <h1>Samen naar een <br><span class="amp">gelukkige hond</span></h1>
+
+    <p class="lede">Elke hond verdient liefdevolle begeleiding en duidelijke communicatie. <br>Onze trainingen zijn positief, effectief en afgestemd op jou en je hond.</p>
+
+    <ul class="th-features">
+      <li>
+        <span class="thf-circle"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.3-8.9-8.2C1.6 8.6 3.6 5.3 6.8 5.3c2 0 3.3 1.1 5.2 2.9 1.9-1.8 3.2-2.9 5.2-2.9 3.2 0 5.2 3.3 3.7 6.5C18.999 15.7 12 20 12 20Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span>
+        <p>Positieve <br>trainingsmethode</p>
+      </li>
+      <li>
+        <span class="thf-circle"><svg viewBox="0 0 24 24"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg></span>
+        <p>Persoonlijke begeleiding <br>op maat</p>
+      </li>
+      <li>
+        <span class="thf-circle"><svg viewBox="0 0 24 24"><path d="M18.5 4.5C10.5 5 6 9.5 5.8 19.2 15.5 19 20 14.5 18.5 4.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M6.5 18.5C9 12.5 12.5 8.5 17.5 5.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>
+        <p>Rust, respect en <br>vertrouwen</p>
+      </li>
+      <li>
+        <span class="thf-circle"><svg viewBox="0 0 24 24"><path d="M6.4 3.4c.8-.3 1.6 0 2 .7l1.5 2.7c.4.6.3 1.4-.2 1.9l-1.1 1.1c1 2.1 2.7 3.8 4.8 4.8l1.1-1.1c.5-.5 1.3-.6 1.9-.2l2.7 1.5c.7.4 1 1.2.7 2-.5 1.3-1.8 2.2-3.2 2C10.4 18 6 13.6 5.2 7.4 5 6 5.9 4.7 6.4 3.4Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span>
+        <p>Altijd bereikbaar <br>voor advies</p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="th-right">
+    <div class="th-scene">
+      <img class="th-bg" src="assets/th-blob.webp" alt="" aria-hidden="true">
+      <img class="th-dog" src="assets/dog12.webp" alt="Zwarte hond met blije uitdrukking">
+      <p class="th-blob-text"><svg class="th-blob-heart" viewBox="0 0 24 24"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z"/></svg><br>Met liefde <br>en geduld</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MAIN ============ -->
+<section class="training-main">
+
+  <!-- decorations -->
+  <img class="deco tm-leaf-r1" src="assets/deco-leaf-right.webp" alt="">
+  <img class="deco tm-leaf-l1" src="assets/deco-leaf-left.webp" alt="">
+  <img class="deco tm-leaf-r2" src="assets/deco-leaf-right.webp" alt="">
+  <img class="deco tm-leaf-l2" src="assets/deco-leaf-left.webp" alt="">
+  <svg class="deco tm-heart-big1" viewBox="0 0 24 24"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z"/></svg>
+  <svg class="deco tm-heart-big2" viewBox="0 0 24 24"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z"/></svg>
+  <svg class="deco tm-heart-big3" viewBox="0 0 24 24"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z"/></svg>
+  <svg class="deco tm-paw1" viewBox="0 0 24 24"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg>
+  <svg class="deco tm-paw2" viewBox="0 0 24 24"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg>
+  <svg class="deco tm-sprout" viewBox="0 0 70 110" fill="none">
+    <path d="M35 105C33 75 33 45 40 8" stroke="#b9c49e" stroke-width="2" stroke-linecap="round"/>
+    <path d="M36 78c-13-2-21-10-23-23 13 2 21 10 23 23Z" fill="#ccd6ae"/>
+    <path d="M35 56c13-4 19-13 19-26-13 4-19 13-19 26Z" fill="#c2cda2"/>
+    <path d="M37 36c-12-1-19-8-21-20 12 1 19 8 21 20Z" fill="#d4dcba"/>
+  </svg>
+  <svg class="deco tm-leaf-gold" viewBox="0 0 70 110" fill="none">
+    <path d="M35 105C33 75 33 45 40 8" stroke="#d3ac6c" stroke-width="2" stroke-linecap="round"/>
+    <path d="M36 78c-13-2-21-10-23-23 13 2 21 10 23 23Z" fill="#e3c28b"/>
+    <path d="M35 56c13-4 19-13 19-26-13 4-19 13-19 26Z" fill="#dcb877"/>
+    <path d="M37 36c-12-1-19-8-21-20 12 1 19 8 21 20Z" fill="#ecd2a2"/>
+  </svg>
+  <svg class="deco tm-sparkles" viewBox="0 0 60 80" fill="#d9ab55">
+    <path d="M20 2l3 11 11 3-11 3-3 11-3-11-11-3 11-3Z"/>
+    <path d="M44 34l2 7 7 2-7 2-2 7-2-7-7-2 7-2Z"/>
+    <path d="M16 56l2 7 7 2-7 2-2 7-2-7-7-2 7-2Z"/>
+  </svg>
+  <svg class="deco tm-sparkle-2" viewBox="0 0 40 40" fill="#d3ab55"><path d="M20 2l3 11 11 3-11 3-3 11-3-11-11-3 11-3Z"/></svg>
+  <svg class="deco tm-heart-sm1" viewBox="0 0 24 24" fill="#e8a9b0"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z"/></svg>
+  <svg class="deco tm-heart-sm2" viewBox="0 0 24 24" fill="#dd8f98"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z"/></svg>
+  <svg class="deco tm-heart-sm3" viewBox="0 0 24 24" fill="#e8a9b0"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z"/></svg>
+
+  <!-- prijslijst + cursussen -->
+  <div class="tgrid tgrid-2">
+    <div class="tcol tcol-prijs">
+      <h3 class="tr-title">Prijslijst
+        <svg class="tr-icon" viewBox="0 0 24 24"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg>
+      </h3>
+
+      <table class="price-table">
+        <thead>
+          <tr><th>Cursus</th><th class="price">Prijs</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Puppy cursus 8 lessen, 45 min</td><td class="price">&euro; 121</td></tr>
+          <tr><td>Basis cursus 8 lessen, 45 min</td><td class="price">&euro; 121</td></tr>
+          <tr><td>Puber cursus 8 lessen, 45 min</td><td class="price">&euro; 121</td></tr>
+          <tr class="gend"><td>Puppy, basis en puber voordeel package <br>3x 8 lessen, 45 min</td><td class="price">&euro; 345</td></tr>
+          <tr class="gap"><td>Individueel (1-op-1) losse les, 45 min</td><td class="price">&euro; 53</td></tr>
+          <tr><td>Individueel (1-op-1) 8 lessen, 45 min</td><td class="price">&euro; 400</td></tr>
+          <tr class="gend"><td>Km vergoeding &gt;10 km individueel (1-op-1)</td><td class="price">&euro; 0,30 per km</td></tr>
+          <tr class="gap"><td>Hond kind (1-op-1) losse les</td><td class="price">&euro; 53</td></tr>
+          <tr><td>Hond kind (1-op-1) 8 lessen</td><td class="price">&euro; 400</td></tr>
+        </tbody>
+      </table>
+
+      <div class="mail-box">
+        <svg class="mb-env" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m4.5 7.5 7.5 5.5 7.5-5.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <p>Meld je aan via het aanmeldformulier en stuur deze naar <br>
+          <a href="mailto:hondentraining-trimsalon@vrolijkstaartje.nl">hondentraining-trimsalon@vrolijkstaartje.nl</a>
+        </p>
+        <svg class="mb-paw" viewBox="0 0 24 24"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg>
+      </div>
+    </div>
+
+    <div class="tcol tcol-cursussen">
+      <h3 class="tr-title">
+        <svg class="tr-icon" viewBox="0 0 24 24"><path d="M12 3 1 8.2l11 5.2 9-4.25V15h2V8.2L12 3ZM5 12.9V17c0 1.9 3.1 3.4 7 3.4s7-1.5 7-3.4v-4.1l-7 3.3-7-3.3Z"/></svg>
+        Cursussen
+      </h3>
+
+      <article class="cursus-item">
+        <span class="ci-circle ci-peach"><img src="assets/ci-puppy.webp" alt=""></span>
+        <div>
+          <h4 class="ci-h">Puppy cursus:</h4>
+          <p class="ci-sub">Tussen de 8 en 12 weken</p>
+          <p class="ci-text">Tijdens deze cursus gaan we de basis oefeningen doen. We zullen ook kijken naar de lichaamstaal van je hond en hoe je deze zelf kunt lezen. Er kunnen vragen gesteld worden over problemen waar jullie tegenaan lopen of als jullie graag advies willen.</p>
+        </div>
+      </article>
+
+      <article class="cursus-item">
+        <span class="ci-circle ci-sage"><img src="assets/ci-basis.webp" alt=""></span>
+        <div>
+          <h4 class="ci-h">Basis cursus:</h4>
+          <p class="ci-sub">Tussen de 12 weken en 6 maanden</p>
+          <p class="ci-text">Deze cursus sluit aan op de puppy cursus of vanaf 12 weken. Tijdens deze cursus gaan we de basis oefeningen wat lastiger maken en komen er nog nieuwe oefeningen bij. Tijdens de lessen kunnen er vragen gesteld worden over problemen waar jullie tegenaan lopen of als jullie graag advies willen. Wanneer jullie tegen een gelijk probleem aanlopen als groep zal ik mijn les aanpassen aan jullie behoefte en hier de oefeningen op baseren.</p>
+        </div>
+      </article>
+
+      <article class="cursus-item">
+        <span class="ci-circle ci-rose"><img src="assets/ci-puber.webp" alt=""></span>
+        <div>
+          <h4 class="ci-h">Puber cursus:</h4>
+          <p class="ci-sub">Vanaf 6 maanden</p>
+          <p class="ci-text">Deze cursus sluit aan op de basis cursus of vanaf 6 maanden. Bij de puber cursus zullen we even terug gaan naar de basis en alles opnieuw opfrissen. We zullen elke les bespreken als groep waar jullie tegenaan lopen en hier zal ik de les op baseren. Hierdoor worden er oefeningen behandeld waar jullie ook echt baat bij hebben.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <!-- individueel lessen -->
+  <div class="tgrid tgrid-ind">
+    <h3 class="tr-title tr-title-s">
+      <svg class="tr-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="7.2" r="3.4"/><path d="M5 20.5c.6-4.4 3.4-6.9 7-6.9s6.4 2.5 7 6.9"/></svg>
+      Individueel lessen
+    </h3>
+    <p class="body-text">Heeft jouw hond moeite om zich te concentreren in een groep, raakt hij snel overprikkeld, of kan hij niet met andere honden samen? Individuele lessen zijn ideaal! We stemmen alles af op jullie behoeften en we kunnen gericht werken aan specifieke oefeningen of vaardigheden. Geen afleiding, gewoon persoonlijke aandacht en les op maat.</p>
+    <p class="signup-line">Meld je aan via het aanmeldformulier en stuur deze naar <br><a href="mailto:hondentraining-trimsalon@vrolijkstaartje.nl">hondentraining-trimsalon@vrolijkstaartje.nl</a></p>
+  </div>
+
+  <!-- gezinsuitbreiding: baby op komst / puppy op komst -->
+  <div class="tgrid tgrid-gz">
+    <h3 class="tr-title tr-title-s">
+      <svg class="tr-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="9" cy="7.5" r="3"/><path d="M3 20c.5-3.8 2.9-6 6-6s5.5 2.2 6 6"/><circle cx="17.5" cy="9.5" r="2.2"/><path d="M15.4 14.6c.7-.4 1.4-.6 2.1-.6 2.2 0 3.9 1.6 4.3 4.5"/></svg>
+      Gezinsuitbreiding
+    </h3>
+    <div class="gz-cols">
+      <div class="gz-col">
+        <h5 class="hk-h hk-rose">Baby op komst</h5>
+        <p class="body-text">Verwachten jullie je eerste kindje en willen jullie de beste start voor je hond en baby? Wil je graag weten hoe je jouw hond voor kunt bereiden op de komst van de kleine? Tijdens deze cursus krijg je antwoord op al deze vragen en nog veel meer.</p>
+        <p class="body-text">Honden en baby&rsquo;s kunnen niet als vanzelfsprekend goed met elkaar overweg, u zult uw hond stapsgewijs moeten leren dat er een baby aankomt en hoe de hond hiermee om kan gaan. Dat is soms best lastig maar het is heel belangrijk dat u de hond betrekt in alle veranderingen en hem de kans geeft hieraan te wennen.</p>
+        <p class="body-text">Een hond laten wennen aan een baby begint al voordat het kindje er is. Vaak merkt u als aanstaande moeder dan ook al subtiele (en minder subtiele) gedragsveranderingen bij uw hond. Hoe u hier mee om kunt gaan leren wij u tijdens het huisbezoek.</p>
+        <p class="body-text gz-strong">Goede voorlichting voorkomt ongelukken!</p>
+        <p class="body-text">Het gebeurt veel te vaak dat honden herplaatst worden omdat ze niet overweg kunnen met de nieuwe baby, onnodig! Want met goede begeleiding kunnen we de hond juist een essentieel onderdeel laten uitmaken van de opvoeding van jullie kindje, sterker nog, kinderen hebben vaak enorm veel baat bij een hond. Een hond is een echt maatje en een verrijking voor het leven van een kind..</p>
+        <h6 class="gz-sub">Herken je dit?</h6>
+        <ul class="dot-list">
+          <li>Je krijgt allerlei adviezen van iedereen om je heen hoe je de hond het beste kunt voorbereiden op de baby.</li>
+          <li>Je droomt van die perfecte eerste ontmoeting, maar hoe ziet zo iets er nu echt uit?</li>
+          <li>Wil je samen met je partner precies weten wat je moet doen in bepaalde situaties en vol vertrouwen starten als gezin met een baby en een hond?</li>
+          <li>Wil je zonder zorgen de eerste weken met jullie kleintje tegemoet gaan?</li>
+          <li>Je wilt het liefste niet voor verrassingen komen te staan als de baby geboren is, aangezien je dan waarschijnlijk minder tijd hebt voor de hond.</li>
+        </ul>
+        <h6 class="gz-sub">Wat houdt het in:</h6>
+        <ul class="dot-list">
+          <li>Voorlichting voor aanstaande ouders, toegespitst op uw situatie</li>
+          <li>Beoordeling van de hond.</li>
+          <li>Je leert hoe je jouw hond voor kunt bereiden op de komst van de kleine?</li>
+          <li>Je weet wat je wel en vooral niet moet doen om jullie baby en hond aan elkaar te laten wennen?</li>
+          <li>Je leert hoe je samen met je partner kunt zorgen voor een bijzondere eerste ontmoeting?</li>
+        </ul>
+        <p class="signup-line">Meld je aan via het aanmeldformulier en stuur deze naar <br><a href="mailto:hondentraining-trimsalon@vrolijkstaartje.nl">hondentraining-trimsalon@vrolijkstaartje.nl</a></p>
+      </div>
+      <div class="gz-col">
+        <h5 class="hk-h hk-green">Puppy op komst</h5>
+        <p class="body-text">De komst van een pup vergt heel wat voorbereiding en natuurlijk ook veel plezier. Je wilt er met het hele gezin voor zorgen dat jullie pup een goede start maakt.</p>
+        <p class="body-text">Een pup in huis is natuurlijk ontzettend leuk, ook voor de kinderen. Wat we soms wel eens vergeten is dat het ook best wel heftig kan zijn, zeker voor kinderen! Kinderen hebben een hele andere belevingswereld dan volwassenen. Waarom bijt mijn puppy mij? Hij vind mij vast niet leuk! Dit kan kinderen onzeker en zelfs verdrietig maken. Pups en kinderen begrijpen elkaar vaak niet zo goed. Waar de een een leuk spel ziet, ziet de ander bedreiging. Het is dus goed om het contact tussen kinderen en de nieuwe pup in goede banen te leiden.</p>
+        <h6 class="gz-sub">Wat houdt het in:</h6>
+        <p class="body-text">Ik kom eerst langs als de puppy er nog niet is, dan bespreken we wat het eigenlijk inhoud om een pup te hebben en wat een pup allemaal nodig heeft. Jullie mogen dan ook al jullie vragen stellen. We hebben het onder andere over de volgende onderwerpen.</p>
+        <ul class="dot-list">
+          <li>Elkaar begrijpen, communiceren</li>
+          <li>Regels voor de hond en regels voor het kind, respect voor elkaar!</li>
+          <li>Leuke spelletjes</li>
+        </ul>
+        <p class="body-text">Hierna maken we een afspraak voor de tweede les, deze zal zijn als jullie de pup een paar dagen in huis hebben. We gaan dan samen goed naar jullie puppy kijken en gaan de geleerde dingen uit les 1 in de praktijk brengen. Daarna kunnen we desgewenst nog een afspraak maken of kunnen jullie komen meedoen aan de puppycursus.</p>
+        <p class="signup-line">Meld je aan via het aanmeldformulier en stuur deze naar <br><a href="mailto:hondentraining-trimsalon@vrolijkstaartje.nl">hondentraining-trimsalon@vrolijkstaartje.nl</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- kind en hond -->
+  <div class="tgrid tgrid-kh">
+    <h3 class="tr-title tr-title-s">
+      <svg class="tr-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="7.2" r="3.4"/><path d="M5 20.5c.6-4.4 3.4-6.9 7-6.9s6.4 2.5 7 6.9"/></svg>
+      Kind en hond
+    </h3>
+    <p class="body-text kh-intro">Ervaar je problemen tussen kind(eren) en hond dan kun je je hier veel zorgen over maken. Het is belangrijk om met een probleem hoe klein ook hulp in te schakelen als je er zelf niet uit komt. De problemen lossen in veel gevallen namelijk niet vanzelf op of worden zelfs erger. Ik ga jou en de rest van het gezin leren hoe je met aanpassingen, training en oefeningen meer veiligheid en rust kunt cre&euml;ren voor jezelf, je kind(eren) en de hond.</p>
+    <div class="kh-cols">
+      <div>
+        <h4 class="sit-title">
+          <svg class="tr-icon" viewBox="0 0 24 24"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg>
+          Herken jij jezelf in deze situaties?
+        </h4>
+        <ul class="dot-list">
+          <li>Mijn baby kruipt steeds naar de mand van de hond toe en de hond lijkt dit niet prettig te vinden.</li>
+          <li>Kinderen in de buurt willen steeds met mijn hond knuffelen, maar die wilt dit niet.</li>
+          <li>Mijn kleuter wilt steeds de riem van de hond vast houden, terwijl mijn hond dit niet fijn vindt.</li>
+          <li>Mijn pup rent achter mijn kleuter aan en hapt dan richting zijn voeten.</li>
+          <li>Mijn hond steelt eten uit de handen van de kinderen.</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="sit-title">
+          <svg class="tr-icon" viewBox="0 0 24 24"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg>
+          Wat houdt het in:
+        </h4>
+        <ul class="dot-list">
+          <li>We gaan aan de slag in het leren begrijpen en lezen van de hond.</li>
+          <li>Jullie leren opbouwende spanning signaleren, zodat je op tijd actie kunt ondernemen.</li>
+          <li>Daarnaast ga ik jullie uitleggen hoe honden leren.</li>
+          <li>Hoe zorg je ervoor dat gedrag wat je niet wilt zien afneemt en gedrag wat je graag wilt toeneemt.</li>
+          <li>We leren hoe je een hond eigenlijk hoort te aaien en gaan dit ook oefenen.</li>
+          <li>Wat kun je doen wanneer de hond iets doet wat je helemaal niet leuk vindt?</li>
+          <li>Wat zijn leuke spelletjes die je kunt doen met je hond maar ook welke spelletjes je beter niet kunt doen.</li>
+          <li>Kortom, alles wat kinderen moeten weten om het contact met onze viervoeters leuk maar vooral veilig te houden.</li>
+          <li>Hoe kan ik mijn hond het beste corrigeren/ondersteunen.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="signup-line">Meld je aan via het aanmeldformulier en stuur deze naar <br><a href="mailto:hondentraining-trimsalon@vrolijkstaartje.nl">hondentraining-trimsalon@vrolijkstaartje.nl</a></p>
+  </div>
+
+  <!-- algemene voorwaarden -->
+  <div class="tgrid tgrid-av" id="algemene-voorwaarden">
+    <h3 class="tr-title tr-title-s">
+      <svg class="tr-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3.5h7l4 4V20a.5.5 0 0 1-.5.5h-10A.5.5 0 0 1 7 20V3.5Z"/><path d="M14 3.5v4h4"/><path d="M9.5 12h5M9.5 15.5h5M9.5 8.5h2"/></svg>
+      Algemene voorwaarden
+    </h3>
+    <p class="body-text av-intro">Door een afspraak te maken ga je akkoord met onze algemene voorwaarden.</p>
+    <div class="av-box" tabindex="0">
+      <h4>1. Diensten en omschrijving</h4>
+      <p><b>1.1</b> De hondentrainer biedt een breed scala aan trainingsdiensten, waaronder: individuele trainingen, groepslessen, gedragstraining, puppytrainingen en hond en kind.</p>
+      <p><b>1.2</b> Elke training is op maat, afgestemd op de behoeften van de hond en de eigenaar.</p>
+      <p><b>1.3</b> De trainer behoudt zich het recht voor om het lesprogramma aan te passen afhankelijk van de vooruitgang van de hond.</p>
+      <h4>2. Betaling</h4>
+      <p><b>2.1</b> Betaling dient te worden voldaan vóór de training via bankoverschrijving, iDEAL of contant.</p>
+      <h4>3. Annulering en wijziging van afspraak</h4>
+      <p><b>3.1</b> Annulering van een individuele les dient minimaal 48 uur van tevoren te gebeuren. Bij te late annulering wordt het volledige lesbedrag in rekening gebracht.</p>
+      <p><b>3.2</b> Bij een no-show (niet komen opdagen) wordt het volledige bedrag in rekening gebracht, tenzij voorafgaand een geldige reden wordt opgegeven.</p>
+      <p><b>3.3</b> Het is mogelijk om een individuele les kosteloos te verzetten, mits minimaal 48 uur van tevoren.</p>
+      <p><b>3.4</b> Groepslessen worden vooraf afgesproken, het is niet mogelijk om groepslessen te verzetten of een andere dag deel te nemen. Mocht je een les missen is dit eigen verantwoordelijkheid en is er geen mogelijkheid voor terugbetaling.</p>
+      <h4>4. Aansprakelijkheid</h4>
+      <p><b>4.1</b> De trainer is niet aansprakelijk voor enige schade aan de hond, eigenaar of derden die kan ontstaan tijdens of na de training, tenzij sprake is van grove nalatigheid.</p>
+      <p><b>4.2</b> De eigenaar is verantwoordelijk voor het gedrag van de hond en dient ervoor te zorgen dat de hond in goede gezondheid is en geschikt is voor de training.</p>
+      <h4>5. Gezondheid en veiligheid van de hond</h4>
+      <p><b>5.1</b> De hond dient in goede gezondheid te verkeren en volledig gevaccineerd te zijn. Indien de hond ziek is, moet de training worden geannuleerd.</p>
+      <p><b>5.2</b> De eigenaar is verplicht om de trainer op de hoogte te stellen van eventuele gezondheidsproblemen of gedragsproblemen van de hond.</p>
+      <p><b>5.3</b> De trainer kan besluiten de hond niet deel te laten nemen als de hond niet geschikt wordt geacht voor de training.</p>
+      <h4>6. Verplichtingen van de eigenaar</h4>
+      <p><b>6.1</b> De eigenaar is verantwoordelijk voor het meenemen van geschikt materiaal zoals leiband, halsband, en speeltjes tijdens de training.</p>
+      <p><b>6.2</b> Het is verplicht om de hond in de trainingen te begeleiden, rekening houdend met de veiligheidsvoorschriften van de trainer.</p>
+      <p><b>6.3</b> Alle trainingsmaterialen die door de trainer worden verstrekt, blijven eigendom van de trainer.</p>
+      <p><b>6.4</b> De eigenaar moet de hond op tijd bij de training brengen en deze onder controle houden.</p>
+      <h4>7. Privacy en foto's</h4>
+      <p><b>7.1</b> De trainer mag foto's en video's maken tijdens de training voor gebruik op sociale media of ter promotie, tenzij anders aangegeven door de eigenaar.</p>
+      <p><b>7.2</b> Persoonlijke gegevens van de eigenaar en hond worden vertrouwelijk behandeld en alleen gebruikt voor het trainingsdoel.</p>
+      <h4>8. Gedragscode en wijzigingen</h4>
+      <p><b>8.1</b> De eigenaar dient zich aan de gedragsregels te houden die door de trainer zijn opgesteld. Dit omvat het respectvol omgaan met andere hondeneigenaren en hun honden tijdens groepslessen.</p>
+      <p><b>8.2</b> Het is verboden om honden tijdens de training onbeheerd achter te laten.</p>
+      <p><b>8.3</b> De trainer kan de training of methoden aanpassen, afhankelijk van de voortgang van de hond en eventuele onvoorziene omstandigheden.</p>
+      <h4>9. Duur en beëindiging van de overeenkomst</h4>
+      <p><b>9.1</b> De overeenkomst tussen de eigenaar en de hondentrainer begint op de datum van de eerste training en kan door beide partijen op elk moment worden beëindigd.</p>
+      <p><b>9.2</b> Indien de eigenaar zich niet houdt aan de algemene voorwaarden of niet betaalt, kan de trainer de overeenkomst beëindigen zonder verdere verplichtingen.</p>
+      <p><b>9.3</b> Bij beëindiging van de overeenkomst worden geen reeds betaalde vergoedingen terugbetaald, tenzij anders afgesproken.</p>
+      <h4>10. Wijzigingen</h4>
+      <p><b>10.1</b> Deze algemene voorwaarden kunnen zonder voorafgaande kennisgeving worden aangepast. De meest recente versie is altijd beschikbaar op onze website of kan op verzoek worden verstrekt.</p>
+      <h4>Ondertekening</h4>
+      <p>Door een afspraak te maken, verklaart de klant deze algemene voorwaarden te hebben gelezen en akkoord te gaan met de inhoud ervan.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AFSLUITENDE BAND ============ -->
+<footer class="site-footer">
+  <svg class="footer-wave" viewBox="0 0 1440 110" preserveAspectRatio="none" aria-hidden="true">
+    <path fill="rgb(240 220 190)" d="M0 60C140 38 300 26 460 34C640 43 780 64 960 62C1140 60 1310 40 1440 26V110H0Z"/>
+  </svg>
+  <div class="footer-pawcircle" aria-hidden="true">
+    <svg viewBox="0 0 140 140">
+      <circle cx="70" cy="70" r="68" class="stamp-bg"/>
+      <circle cx="70" cy="70" r="63" fill="none" class="stamp-ring"/>
+      <defs>
+        <path id="stampTopF" d="M22 70a48 48 0 0 1 96 0"/>
+        <path id="stampBottomF" d="M13 70a57 57 0 0 0 114 0"/>
+      </defs>
+      <text class="stamp-text"><textPath href="#stampTopF" startOffset="50%" text-anchor="middle">BLIJE STAARTJES</textPath></text>
+      <text class="stamp-text"><textPath href="#stampBottomF" startOffset="50%" text-anchor="middle">SINDS DAG ÉÉN</textPath></text>
+      <circle cx="17.5" cy="70" r="2" class="stamp-dot"/>
+      <circle cx="122.5" cy="70" r="2" class="stamp-dot"/>
+      <g class="stamp-paw" transform="translate(70 72) scale(1.8)">
+        <ellipse cx="-9" cy="-6.5" rx="3.1" ry="4.4" transform="rotate(-20 -9 -6.5)"/>
+        <ellipse cx="-3.2" cy="-10" rx="3.1" ry="4.6"/>
+        <ellipse cx="3.2" cy="-10" rx="3.1" ry="4.6"/>
+        <ellipse cx="9" cy="-6.5" rx="3.1" ry="4.4" transform="rotate(20 9 -6.5)"/>
+        <path d="M0-3.8c-4 0-7.9 4.9-7.9 8.5 0 2.4 1.7 3.8 3.8 3.8 1.6 0 2.6-.7 4.1-.7s2.5.7 4.1.7c2.1 0 3.8-1.4 3.8-3.8 0-3.6-3.9-8.5-7.9-8.5Z"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="footer-main">
+    <svg class="fdeco f-leaf-tr" viewBox="0 0 70 110" fill="none" aria-hidden="true">
+      <path d="M35 105C33 75 33 45 40 8" stroke="#b9c49e" stroke-width="2" stroke-linecap="round"/>
+      <path d="M36 78c-13-2-21-10-23-23 13 2 21 10 23 23Z" fill="#ccd6ae"/>
+      <path d="M35 56c13-4 19-13 19-26-13 4-19 13-19 26Z" fill="#c2cda2"/>
+      <path d="M37 36c-12-1-19-8-21-20 12 1 19 8 21 20Z" fill="#d4dcba"/>
+    </svg>
+    <svg class="fdeco f-leaf-r" viewBox="0 0 70 110" fill="none" aria-hidden="true">
+      <path d="M35 105C33 75 33 45 40 8" stroke="#b9c49e" stroke-width="2" stroke-linecap="round"/>
+      <path d="M36 78c-13-2-21-10-23-23 13 2 21 10 23 23Z" fill="#ccd6ae"/>
+      <path d="M35 56c13-4 19-13 19-26-13 4-19 13-19 26Z" fill="#c2cda2"/>
+      <path d="M37 36c-12-1-19-8-21-20 12 1 19 8 21 20Z" fill="#d4dcba"/>
+    </svg>
+    <svg class="fdeco f-sparkle-1" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 2l3 11 11 3-11 3-3 11-3-11-11-3 11-3Z" fill="#d3ab55"/></svg>
+    <svg class="fdeco f-sparkle-2" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 2l3 11 11 3-11 3-3 11-3-11-11-3 11-3Z" fill="#d3ab55"/></svg>
+    <svg class="fdeco f-heart-1" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z" fill="#e8a9b0"/></svg>
+    <svg class="fdeco f-heart-2" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z" fill="#e8a9b0"/></svg>
+    <svg class="fdeco f-heart-3" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z" fill="#dd8f98"/></svg>
+    <svg class="fdeco f-flower" viewBox="0 0 40 40" aria-hidden="true">
+      <g stroke="#c9a24b" stroke-width="1.5" fill="none">
+        <ellipse cx="20" cy="12" rx="3.2" ry="5.2"/>
+        <ellipse cx="20" cy="12" rx="3.2" ry="5.2" transform="rotate(72 20 20)"/>
+        <ellipse cx="20" cy="12" rx="3.2" ry="5.2" transform="rotate(144 20 20)"/>
+        <ellipse cx="20" cy="12" rx="3.2" ry="5.2" transform="rotate(216 20 20)"/>
+        <ellipse cx="20" cy="12" rx="3.2" ry="5.2" transform="rotate(288 20 20)"/>
+      </g>
+      <circle cx="20" cy="20" r="2.6" fill="#c9a24b"/>
+    </svg>
+
+    <div class="footer-body">
+      <div class="footer-col footer-brand">
+        <img src="assets/logo-full.png" alt="Vrolijkstaartje">
+        <p class="footer-script">Blije hond. Schone hond. Geliefde hond. <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s-8.2-5.05-10.4-9.6C-.1 7.9 2.3 4 6.1 4c2.3 0 3.9 1.3 5.9 3.4C14 5.3 15.6 4 17.9 4c3.8 0 6.2 3.9 4.5 7.4C20.2 15.95 12 21 12 21Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigatie</h4>
+        <ul class="footer-nav">
+          <li><svg class="li-paw" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg><a href="index.html">Startpagina</a></li>
+          <li><svg class="li-paw" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg><a href="hondentraining.html">Honden training</a></li>
+          <li><svg class="li-paw" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg><a href="trimsalon.html">Trimsalon</a></li>
+          <li><svg class="li-paw" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.35 8.2c1 0 1.8-1.1 1.8-2.45S9.35 3.3 8.35 3.3s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm7.3 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM4.1 13.1c1 0 1.8-1.1 1.8-2.45S5.1 8.2 4.1 8.2s-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45Zm15.8 0c1 0 1.8-1.1 1.8-2.45s-.8-2.45-1.8-2.45-1.8 1.1-1.8 2.45.8 2.45 1.8 2.45ZM12 10.4c-2.5 0-5.6 3.5-5.6 6.2 0 1.7 1.1 2.6 2.6 2.6 1.1 0 1.9-.5 3-.5s1.9.5 3 .5c1.5 0 2.6-.9 2.6-2.6 0-2.7-3.1-6.2-5.6-6.2Z"/></svg><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul class="footer-contact">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.7 2 6 4.7 6 8.1c0 4.5 6 11.9 6 11.9s6-7.4 6-11.9C18 4.7 15.3 2 12 2Zm0 8.4a2.3 2.3 0 1 1 0-4.6 2.3 2.3 0 0 1 0 4.6Z" fill="currentColor"/></svg><a href="https://www.google.com/maps/search/?api=1&amp;query=Hofstraat+27A%2C+6161+AP+Geleen" target="_blank" rel="noopener">Hofstraat 27 A</a></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2 3 11h2.2v9h5.2v-5.6h3.2V20h5.2v-9H21L12 3.2Z" fill="currentColor"/></svg><a href="https://www.google.com/maps/search/?api=1&amp;query=Hofstraat+27A%2C+6161+AP+Geleen" target="_blank" rel="noopener">6161 AP Geleen</a></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 15.6c-1.2 0-2.5-.2-3.6-.6-.35-.12-.75-.03-1.02.25l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.28-.28.36-.67.25-1.02-.4-1.15-.6-2.4-.6-3.67 0-.55-.45-1-1-1H4.4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.44c0-.55-.45-1-1-1Z" fill="currentColor"/></svg><a href="tel:+31623443860">06-23 44 38 60</a></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m4.5 7.5 7.5 5.5 7.5-5.5"/></svg><a href="mailto:info@vrolijkstaartje.nl">info@vrolijkstaartje.nl</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <svg class="footer-wave-bottom" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+    <path fill="rgb(240 220 190)" d="M0 0H1440V16C1330 26 1210 52 1080 54C950 56 850 22 720 20C590 18 490 56 360 54C230 52 110 26 0 16Z"/>
+  </svg>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Vrolijk Staartje. Alle rechten voorbehouden. KvK 97130362</p>
+  </div>
+</footer>
+<!-- zwevende WhatsApp-knop -->
+<a class="wa-float" href="https://wa.me/31623443860?text=Hallo%20Sharon%2C%20ik%20heb%20een%20vraag%20over%20" target="_blank" rel="noopener" aria-label="Stuur een WhatsApp-bericht">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 1.67c2.2 0 4.26.86 5.82 2.42a8.2 8.2 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23-1.48 0-2.93-.4-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24ZM8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.16-.48-.29-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.78.97-.15.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.85-.2-.48-.4-.42-.56-.43l-.47-.01Z"/></svg>
+  <span class="wa-label">WhatsApp ons</span>
+</a>
+</body>
+</html>
